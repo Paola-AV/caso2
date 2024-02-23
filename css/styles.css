@@ -64,7 +64,7 @@ body {
 
 }
 
-#cintaTxt{
+#cintaTxt {
     color: white;
     padding-left: 22rem;
     justify-self: center;
@@ -272,4 +272,78 @@ body {
     height: 100vh;
     width: 100%;
     background-color: #101227;
+}
+
+.globo1s6 {
+    width: 30rem;
+    height: 15rem;
+    padding-left: 27rem;
+}
+
+.globo2s6 {
+    width: 45rem;
+    height: 20rem;
+    padding-left: 25rem;
+    z-index: 2;
+}
+
+.chicaimgs6 {
+    width: 40rem;
+    height: 40rem;
+
+
+}
+
+.section6 {
+    display: flex;
+    flex-direction: row;
+}
+
+.textosec6 {
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+}
+
+.imgsec6 {
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding-right: 10rem;
+}
+
+.texto1s6 {
+    color: white;
+    font-size: 2.3rem;
+    text-align: center;
+    width: 5rem;
+    align-self: flex-end;
+    display: flex;
+    transform: translateY(-5rem);
+    display: inline;
+
+}
+
+.texto1s6c {
+    align-self: self-end;
+    display: inline;
+    width: 30rem;
+    text-align: center;
+    transform: translateY(-1rem);
+}
+
+#colortext1 {
+    color: #924540;
+    font-size: 2.3rem;
+    text-align: center;
+    width: 5rem;
+    align-self: flex-end;
+    display: flex;
+    
+    display: inline;
 }
