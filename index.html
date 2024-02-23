@@ -7,40 +7,37 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/wickedcss.min (1).css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
 
     <section class="section1">
-        <div class="content1">
-            <div class="confeti">
-                <img class="slideDown" id="confetiimg"  src="src/c2-p1-confetti.svg" alt="">
-            </div>
-            <div class="contIMG">
-                <div class="pasteltxt">
-                    <img id="pastel" src="src/c2-p1-pastel.svg" alt="">
-                </div>
-
-            </div>
+        <div class="confeti">
+            <img class="slideDown" id="confetiimg" src="src/c2-p1-confetti.svg" alt="">
+        </div>
+        <div class="contPastel">
+            <img id="pastel" src="src/c2-p1-pastel.svg" alt="">
         </div>
     </section>
 
     <section class="section2">
-
-        <div  class="globo">
-            <div class="slideUp" style="position: relative; display: grid;">
-                <img id="cintaimg"  src="src/c2-p1-cinta-txt.svg" alt="">
-                <p id="cintaTxt">¡Fer (15 años) estaba emocionada por asistir a la fiesta de quince de su mejor amiga Arlyn! 🎉 En el evento conoció a su primo Manu (26 años)! 😊🎶</p>
-            </div>
-            
+        <div class="slideUp" id="cinta">
+            <img id="cintaimg" src="src/c2-p1-cinta-txt.svg" alt="">
+            <p id="cintaTxt">¡Fer (15 años) estaba emocionada por asistir a la fiesta de quince de su mejor amiga Arlyn!
+                🎉 En el evento conoció a su primo Manu (26 años)! 😊🎶</p>
+        </div>
+        <div id="globoDiv">
             <img id="globoimg" class="slideUp" src="src/c2-p1-globos.svg" alt="">
         </div>
     </section>
 
     <section class="section3">
-        <div>
+        <div style="display: grid; position: relative;">
             <img class="cajatexto" src="src/c2-p2-caja-txt.svg" alt="">
+            <p class="cajaTxt">¡Fer quedó con un crush por Manu! 😍 Era guapo y con un trabajo que le permitía tener un buen carro.
+             🚗 Además, era papá de un bebé super cosi 🍼💼
+            </p>
         </div>
         <div>
             <img class="manoCel" src="src/c2-p2-mano-cel-01.svg" alt="">
@@ -51,26 +48,26 @@
     <section class="section4">
         <div class="content4">
             <div class="nube">
-                <div class="nube1">
-                    <img id="nube1" src="src/c2-p3-nube1.svg" alt="">
-                    <img id="nube3" src="src/c2-p3-nube3.svg" alt="">
+                <div class="nube1"  >
+                    <img id="nube1"  data-aos="fade-right" data-aos-duration="600" src="src/c2-p3-nube1.svg" alt="">
+                    <img id="nube3"  data-aos="fade-right" data-aos-duration="600" src="src/c2-p3-nube3.svg" alt="">
                 </div>
-                <div class="luna">
-                    <img id="lunaimg" src="src/c2-p3-luna.svg" alt="">
+                <div class="luna SlideDown">
+                    <img id="lunaimg" data-aos="fade-down" data-aos-duration="800" src="src/c2-p3-luna.svg" alt="">
                 </div>
 
                 <div class="nube2">
-                    <img id="nube2" src="src/c2-p3-nube2.svg" alt="">
+                    <img id="nube2" data-aos="fade-left" data-aos-duration="800" src="src/c2-p3-nube2.svg" alt="">
                 </div>
             </div>
             <div class="entorno">
-                <div class="texto1">
+                <div class="texto1"  data-aos="zoom-in" data-aos-duration="1000">
                     <p>Después de chatear por unos días, Manu invitó a Fer a dar una vuelta. Él llevaba comida y se
                         fueron de picnic a un mirador. </p>
                 </div>
-                <div class="texto2">
-                    <p>Fue así como Manu le pidió que fuera su novia. 
-                        </p>
+                <div class="texto2" data-aos="zoom-in" data-aos-duration="1500">
+                    <p id="p2">Fue así como Manu le pidió que fuera su novia.
+                    </p>
                 </div>
             </div>
 
@@ -84,18 +81,106 @@
             <img class="letreroimg" src="src/c2-p4-letrero.svg" alt="">
         </div>
         <div class="sec5Text">
-            <p>Al inicio salían muy seguido, casi siempre a lugares con poca gente.  Pero con el paso de las semanas se comenzaron a ver menos.</p>
-            <p id="text2sec5">A Manu le gustaba ir a bares con sus amigos, tenía que trabajar, y cuando le quedaba tiempo libre, le tocaba cuidar a su bebé</p>
+            <p id="text1sec5" data-aos="zoom-in" data-aos-duration="1000">Al inicio salían muy seguido, casi siempre a lugares con poca gente. Pero con el paso de las semanas se
+                comenzaron a ver menos.</p>
+            <p id="text2sec5" data-aos="zoom-in" data-aos-duration="1500">A Manu le gustaba ir a bares con sus amigos, tenía que trabajar, y cuando le quedaba
+                tiempo libre, le tocaba cuidar a su bebé</p>
         </div>
 
     </section>
 
     <section class="section6">
-        
+
 
     </section>
+
+    <!--*****seccion de preguntas*****-->
+    <!--seccion 7 -->
+    <section class="sec9">
+        <h1 class="preguntaH">¿Qué le recomendarías a Fer?</h1>
+        <img id="sec7Icon1" src="./src/s7-corazon.svg">
+        <img id="sec7Icon2" src="./src/s7-corazones.svg">
+        <div class="buttonsDiv" id="pregunta">
+            <button class="btn9" onclick="mostrarRespuesta('azul')">Hablar con Manu para que la incluya más en su vida, y que disfruten salidas con sus compas. 
+                🍸 Así puede demostrarle que no es una chiquilla.
+            </button>
+            <button class="btn9" onclick="mostrarRespuesta('rojo')">¡Pensar en lo que le hace bien! 🤔 La mega diferencia de etapas puede afectar lo que Fer 
+                realmente quiere y necesita. 
+            </button>
+        </div>
+        <div id="azul" class="respuesta-div" style="display: none;">
+            <div class="texto9" id="texto9a">
+                <div class="subTexto9">
+                    <p>Manu está manipulando a Fer, al alejarla de sus amistades y enojarse por celos. ⚠️🚫</p>
+                </div>
+                <div class="subTexto9">
+                    <p>Recordá, no es necesario “demostrar que no es una chiquilla”. Fer es una adolescente, 
+                        y no tiene nada de malo que viva de acuerdo a su edad.
+                    </p>
+                </div>
+                <p>¿Qué es una relación impropia?</p>
+                <a style="text-decoration: underline">Ver aquí.</a>
+                <button id="volverBtn" onclick="volverPregunta()">Volver a la pregunta</button>
+            </div>
+        </div>
+
+        <div id="rojo" class="respuesta-div" style="display: none;">
+            <div class="texto9" id="texto9b">
+                <div class="subTexto9">
+                    <p>¡Así es! Lo más seguro para Fer es terminar esa relación, porque está en una posición muy vulnerable. 🚨
+                        Afecta su autoestima y la hace sentir inferior 😔                        
+                    </p>
+                </div>
+                <div class="subTexto9">
+                    <p>Manu tiene el poder en la relación y la presiona mucho. 🚩 </p>
+                </div>
+                <div class="subTexto9">
+                    <p>¿Sabías que Fer está en una relación impropia? Y en una relación impropia,
+                     la persona adolescente sale perdiendo: es sometida a los deseos de la persona adulta, por una diferencia de madurez emocional y poder económico. 
+                    </p>
+                </div>
+                <p>¿Qué es una relación impropia?</p>
+                <a style="text-decoration: underline">Ver aquí.</a>
+                <button id="volverBtn" onclick="volverPregunta()">Volver a la pregunta</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
+    </script>
+    <script>
+        function mostrarRespuesta(color) {
+            document.getElementById("volverBtn").style.display = "block";
+            // Mostrar la respuesta correspondiente
+            if (color === "azul") {
+                document.getElementById("azul").style.display = "grid";
+            }
+            if (color === "rojo") {
+                document.getElementById("rojo").style.display = "grid";
+            }
+
+            // Ocultar la sección de la pregunta
+            document.getElementById("pregunta").style.display = "none";
+
+        }
+
+    </script>
+
+    <script>
+        function volverPregunta() {
+            // Mostrar la sección de la pregunta
+            document.getElementById("pregunta").style.display = "block";
+
+            // Ocultar las respuestas
+            document.getElementById("azul").style.display = "none";
+            document.getElementById("rojo").style.display = "none";
+
+            // Ocultar el botón de volver
+            document.getElementById("volverBtn").style.display = "none";
+        }
+
     </script>
 
 </body>

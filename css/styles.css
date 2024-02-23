@@ -5,44 +5,46 @@ body {
 .section1 {
     margin: 0px;
     padding: 0px;
-    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .content1 {
     padding: 0;
-    height: 65vh;
+    height: 100%;
     width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     column-gap: 0;
 }
 
 
-.contIMG {
-    display: flex;
-    flex-direction: column;
+
+.contPastel {
+    display:grid;
     gap: 0;
     height: auto;
 }
 
 #pastel {
-
-    height: 25rem;
+    display: grid;
+    width: 17%;
     padding: 0;
-    justify-content: start;
+    justify-self: center;
 }
 
 #globoimg {
-    position: relative;
     height: 40rem;
     padding: 0;
-    bottom: 20rem;
-
+    position: absolute;
+    justify-self: end;
+    align-self: end;
 }
 
 #confetiimg {
     width: 100%;
-    padding-top: 5%;
+    padding-top: 1rem;
     height: auto;
     position: relative;
 }
@@ -57,10 +59,30 @@ body {
     bottom: 8.5rem;
 }
 
+
+
+/*Section 2*/
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 25rem;
+    width: 100%;
+    background-color: #3f1652;
+
+}
+
+#cinta{
+    position: relative; 
+    display: grid; 
+    width: 85%;
+}
+
 #cintaimg {
     width: 65rem;
     height: 12rem;
-    padding-left: 22rem;
+    justify-self: end;
 
 }
 
@@ -75,20 +97,15 @@ body {
     padding-top: 2rem;
 }
 
-.globo {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    height: 25rem;
-    width: 100%;
-    background-color: #3f1652;
-
+#globoDiv{
+    display: grid; 
+    width: 15%;
 }
 
+/*section 3*/
 .section3 {
     display: flex;
     flex-direction: row;
-    height: 100vh;
     align-items: center;
     justify-content: center;
     background-color: #3f1652;
@@ -101,11 +118,19 @@ body {
     align-items: center;
     justify-content: start;
     position: relative;
+}
 
+.cajaTxt{
+    position: absolute;
+    justify-self: center;
+    align-self: center;
+    width: 70%;
+    color: white;
+    font-size: 2rem;
 }
 
 .manoCel {
-    width: 30rem;
+    width: 26rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -113,7 +138,7 @@ body {
     position: relative;
 
 }
-
+/*section 4*/
 .section4 {
     height: 100vh;
 }
@@ -162,11 +187,7 @@ body {
     padding-bottom: 8rem;
 }
 
-
-
-
 .entorno img {
-
     height: 100%;
 }
 
@@ -175,7 +196,6 @@ body {
     grid-template-rows: 1;
     height: 20vh;
     background-color: #2a0147;
-
 }
 
 .luna {
@@ -184,11 +204,10 @@ body {
     padding-right: 10rem;
 }
 
-
-
 .nube1 {
     position: absolute;
     justify-self: start;
+    z-index: 4;
 }
 
 #nube1 {
@@ -232,7 +251,7 @@ body {
 
 }
 
-
+/*section 5*/
 .section5 {
     height: 100vh;
     width: 100%;
@@ -251,6 +270,19 @@ body {
     padding-left: 8rem;
 }
 
+.letreroimg{
+    filter: drop-shadow(0 0 0 rgba(243, 198, 239, 0.4)); /* Establece la sombra inicial */
+    animation: sombraAnimacion 1.6s infinite alternate; /* Define la animación */
+}
+@keyframes sombraAnimacion {
+    0% {
+      filter: drop-shadow(0 0 0 rgba(243, 198, 239, 0.4)); /* Tamaño inicial de la sombra */
+    }
+    100% {
+      filter: drop-shadow(0 0 26px rgba(243, 198, 239, 0.4)); /* Tamaño final de la sombra */
+    }
+  }
+
 .sec5Text {
     width: 30%;
     padding-left: 8rem;
@@ -267,9 +299,474 @@ body {
 #text2sec5 {
     padding-top: 1rem;
 }
-
+/*section 6*/
 .section6 {
     height: 100vh;
     width: 100%;
     background-color: #101227;
+}
+
+/*section 7*/
+.sec9 {
+    background-color: #111328;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+}
+
+#sec7Icon1{
+    width: 15rem;
+    position: absolute;
+    top: 13rem;
+    left: 20rem;
+}
+
+#sec7Icon2{
+    width: 18rem;
+    position: absolute;
+    bottom: 5rem;
+    right: 15rem;
+}
+
+.preguntaH {
+    color: #FFF;
+    font-size: 4rem;
+    z-index: 4;
+}
+
+.buttonsDiv {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.btn9 {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #FFF;
+    padding: 1rem;
+    background-color: transparent;
+    border-radius: 10px;
+    margin: 1rem;
+    color: #FFF;
+    font-size: 1.5rem;
+    width: 100%;
+    z-index: 4;
+}
+
+#azul {
+    width: 80%;
+    height: auto;
+    z-index: 4;
+}
+
+#rojo {
+    width: 80%;
+    height: auto;
+    z-index: 4;
+}
+
+#recuadro {
+    width: 40%;
+    justify-self: center;
+    align-self: center;
+}
+
+.texto9 {
+    position: relative;
+    max-width: 32%;
+    justify-self: center;
+    align-self: center;
+    color: #111328;
+    font-weight: 600;
+    display: flex;
+    padding: 1rem;
+    font-size: 1.3rem;
+    flex-direction: column;
+    border-radius: 30px;
+}
+
+#texto9a{
+    background-color: #ff95bd;
+}
+
+#texto9b{
+    background-color: #ccff9a;
+}
+
+#icon19 {
+    width: 4rem;
+}
+
+.subTexto9 {
+    display: flex;
+    flex-direction: row;
+}
+
+#icon29 {
+    width: 2rem;
+    justify-self: center;
+}
+
+#icon39 {
+    width: 4rem;
+}
+
+#volverBtn {
+    width: 50%;
+    border: solid;
+    border-width: 2px;
+    border-radius: 30px;
+    background-color: transparent;
+    font-weight: 800;
+    color: #111328;
+    margin-top: 1rem;
+    padding: 1rem;
+    
+    justify-self: flex-end;
+    align-self: flex-end;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*Media Queries*/
+
+@media (max-width: 1400px) {
+
+    #cintaimg{
+        width: 60rem;
+    }
+    #cintaTxt{
+        justify-self: start;
+    }
+
+    #globoimg{
+        height: 35rem;
+    }
+    /*Section 3*/
+    .manoCel {
+        width: 20rem;
+    }
+    .cajatexto {
+        width: 40rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    #cintaimg{
+        width: 50rem;
+    }
+    #cintaTxt{
+        justify-self: center;
+        width: 50%;
+        padding-left: 10rem;
+    }
+
+    .entorno{
+        background-size: 100vw 110vh;
+    }
+    /* Section 4 */
+
+    #nube1{
+        width: 25rem;
+    }
+    #nube3{
+        width: 25rem;
+    }
+    .luna{
+        padding-right: 5rem;
+    }
+
+    .texto2{
+        justify-content: center;
+    }
+
+    #p2{
+        padding-bottom: 2rem;
+    }
+
+    .letrero{
+        padding-left: 30rem;
+    }
+    .sec5Text{
+        padding-left: 30rem;
+    }
+    #text1sec5{
+        font-size: 1.5rem;
+    }
+    #text2sec5{
+        font-size: 1.5rem;
+    }
+    /*section 7*/
+    #sec7Icon1{
+        width: 15rem;
+        position: absolute;
+        top: 13rem;
+        left: 5rem;
+    }
+    
+}
+
+@media (max-width: 1200px) and (orientation: landscape){
+    .letrero{
+        padding-left: 30rem;
+    }
+    .sec5Text{
+        padding-left: 30rem;
+    }
+    #text1sec5{
+        font-size: 1.5rem;
+    }
+    #text2sec5{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    #cintaimg{
+        width: 50rem;
+    }
+    #cintaTxt{
+        justify-self: center;
+        width: 60%;
+        padding-left: 8rem;
+    }
+    #globoimg{
+        height: 25rem;
+        transform: translateY(-10rem);
+    }
+     /*Section 3*/
+     .manoCel {
+        width: 18rem;
+    }
+    .cajatexto {
+        width: 30rem;
+    }
+    .entorno{
+        background-size: 100vw 120vh;
+    }
+    /*section 7*/
+    .texto9{
+        max-width: 60%;
+    }
+}
+
+@media (max-width: 1024px) and (orientation: portrait) {
+    /*Section9*/
+    .sec9 {
+        background-image: url("../src/ri-caso1-xs-p7-fondo.jpg");
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2rem;
+        height: 110vh;
+    }
+    .preguntaH {
+        font-size: 3rem;
+        margin: 0 10rem 3rem 10rem;
+        text-align: center;
+    }
+    .buttonsDiv {
+        width: 100%;
+        padding: 0 3rem;
+    }
+    .btn9 {
+        text-align: left;
+        font-size: 2.5rem;
+        padding: 1.3rem 5rem;
+        border-radius: 40px;
+    }
+    #azul {
+        width: 100%;
+    }
+    #recuadro {
+        width: 90%;
+    }
+    .texto9 {
+        padding-top: 2rem;
+        max-width: 85%;
+        font-size: 1.8rem;
+    }
+    #rojo {
+        width: 100%;
+    }
+}
+
+@media (max-width: 900px) {
+    
+    #cintaimg{
+        width: 40rem;
+    }
+    #cintaTxt{
+        justify-self: center;
+        text-align: center;
+        width: 57%;
+        padding-left: 0;
+    }
+    #globoimg{
+        height: 25rem;
+        transform: translateY(-10rem);
+    }
+    /*Section 3*/
+    .cajaTxt{
+       
+        font-size: 1.5rem;
+    }
+
+
+    /*Section 4*/
+    .entorno{
+        background-size: 100vw 130vh;
+    }
+    .luna{
+        padding-right: 0rem;
+    }
+    #lunaimg{
+        height: 8rem;
+    }
+    #nube1{
+        width: 18rem;
+    }
+    #nube3{
+        width: 18rem;
+    }
+    #nube2{
+        width: 35rem;
+    }
+}
+
+@media (max-width: 768px) and (orientation: portrait) {
+    /*Section 2*/
+    #cinta{
+        width: 100%;
+    }
+    #globoDiv{
+        width: 0%;
+    }
+    #cintaimg{
+        justify-self: center;
+    }
+    #cintaTxt{
+        padding-top: 1rem;
+    }
+
+    /*section 4*/
+    .nube{
+        padding-top: 5rem;
+    }
+    #p2{
+        padding-bottom: 15rem;
+    }
+
+    /*Section 5*/
+    .letrero {
+        padding-left: 0rem;
+        padding-top: 1rem;
+        padding-right: 1rem;
+    }
+
+    .letreroimg{
+        width: 8rem;
+    }
+
+    .sec5Text{
+        padding-left: 0rem;
+        height: 100%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #text1sec5{
+        margin-top: 10rem;
+        padding-right: 7rem;
+    }
+    #text2sec5{
+        padding-right: 7rem;
+    }
+
+    /*Section9*/
+    .sec9{
+        height: 130vh;
+    }
+    .btn9 {
+        font-size: 2.2rem;
+        padding: 1.3rem 3rem;
+    }
+    .texto9{
+        font-size: 1.6rem;
+    }
+    #recuadro {
+        width: 100%;
+        height: 90%;
+    }
+
+}
+@media (max-height: 640px) and (orientation: landscape) {
+    /* Section 9 */
+    .preguntaH {
+        font-size: 1.5rem;
+    }
+
+    .texto9 {
+        font-size: 0.6rem;
+        padding: 4%;
+    }
+
+    #recuadro {
+        height: 100%;
+        width: 33%;
+    }
+}
+
+@media (max-width: 500px) and (orientation: portrait) {
+    .sec9{
+        height: 100vh;
+    }
+}
+
+@media (max-height: 425px) and (orientation: landscape) {
+    /* Section 9 */
+    .preguntaH {
+        font-size: 1.3rem;
+    }
+
+    .texto9 {
+        font-size: 0.5rem;
+        padding: 5% 30%;
+    }
+
+    #recuadro {
+        height: 100%;
+        width: 27%;
+    }
+
+    .btn9 {
+        font-size: 0.9rem;
+    }
+
+}
+
+@media (max-width: 375px) and (orientation: portrait) {
+    .texto9 {
+        font-size: 0.7rem;
+        height: 15%;
+        padding-top: 5rem;
+        align-self: start;
+    }
+
+    .sec9{
+        height: 110vh;
+    }
+    #recuadro{
+        margin-top: 0%;
+    }
 }
