@@ -1,0 +1,275 @@
+body {
+    margin: 0;
+}
+
+.section1 {
+    margin: 0px;
+    padding: 0px;
+    height: 65vh;
+}
+
+.content1 {
+    padding: 0;
+    height: 65vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    column-gap: 0;
+}
+
+
+.contIMG {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    height: auto;
+}
+
+#pastel {
+
+    height: 25rem;
+    padding: 0;
+    justify-content: start;
+}
+
+#globoimg {
+    position: relative;
+    height: 40rem;
+    padding: 0;
+    bottom: 20rem;
+
+}
+
+#confetiimg {
+    width: 100%;
+    padding-top: 5%;
+    height: auto;
+    position: relative;
+}
+
+.pasteltxt {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    position: relative;
+    bottom: 8.5rem;
+}
+
+#cintaimg {
+    width: 65rem;
+    height: 12rem;
+    padding-left: 22rem;
+
+}
+
+#cintaTxt{
+    color: white;
+    padding-left: 22rem;
+    justify-self: center;
+    align-self: start;
+    font-size: 1.2rem;
+    width: 50%;
+    position: absolute;
+    padding-top: 2rem;
+}
+
+.globo {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 25rem;
+    width: 100%;
+    background-color: #3f1652;
+
+}
+
+.section3 {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #3f1652;
+}
+
+.cajatexto {
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    position: relative;
+
+}
+
+.manoCel {
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    position: relative;
+
+}
+
+.section4 {
+    height: 100vh;
+}
+
+.entorno {
+    height: 80vh;
+    background-image: url(../src/Entorno.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #2a0147;
+    display: flex;
+    flex-direction: row;
+}
+
+.entorno .texto1 {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: end;
+
+}
+
+.entorno .texto2 {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: end;
+
+}
+
+.entorno .texto1 p {
+    width: 50%;
+    color: white;
+    font-size: 1.7rem;
+    text-align: center;
+    padding-right: 5rem;
+    padding-top: 4rem;
+}
+
+.entorno .texto2 p {
+    width: 50%;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+
+    padding-bottom: 8rem;
+}
+
+
+
+
+.entorno img {
+
+    height: 100%;
+}
+
+.nube {
+    display: grid;
+    grid-template-rows: 1;
+    height: 20vh;
+    background-color: #2a0147;
+
+}
+
+.luna {
+    position: absolute;
+    justify-self: center;
+    padding-right: 10rem;
+}
+
+
+
+.nube1 {
+    position: absolute;
+    justify-self: start;
+}
+
+#nube1 {
+    width: 35rem;
+
+}
+
+#lunaimg {
+    height: 10rem;
+    z-index: 2;
+}
+
+#nube3 {
+    width: 30rem;
+
+}
+
+.nube2 {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    position: absolute;
+    justify-self: center;
+    width: 100%;
+    height: 20vh;
+
+}
+
+#nube2 {
+    width: 80rem;
+
+}
+
+.nube img {
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    position: relative;
+
+}
+
+
+.section5 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../src/Bar.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.letrero {
+    height: 10rem;
+    width: 10rem;
+    padding-top: 5rem;
+    padding-left: 8rem;
+}
+
+.sec5Text {
+    width: 30%;
+    padding-left: 8rem;
+}
+
+.sec5Text p {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 3rem;
+
+}
+
+#text2sec5 {
+    padding-top: 1rem;
+}
+
+.section6 {
+    height: 100vh;
+    width: 100%;
+    background-color: #101227;
+}
