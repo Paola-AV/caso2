@@ -711,7 +711,6 @@ body {
 @media (max-width: 1024px) and (orientation: portrait) {
     /*Section9*/
     .sec9 {
-        background-image: url("../src/ri-caso1-xs-p7-fondo.jpg");
         position: relative;
         display: flex;
         flex-direction: column;
@@ -1142,6 +1141,9 @@ body {
         width: 100%;
         padding: 0rem;
     }
+    .btn9 {
+        font-size: 1.5rem;
+    }
 }
 
 @media (max-height: 425px) and (orientation: landscape) {
@@ -1166,19 +1168,56 @@ body {
     }
 
 }
-
+@media (max-width:420px) and (orientation: portrait) {
+    .sec9{
+        height: 150vh;
+    }
+}
 @media (max-width: 375px) and (orientation: portrait) {
+    #cintaTxt{
+        margin-top: 0rem;
+    }
+    /*section 4*/
+    .text2sec5{
+        height: auto;
+    }
+    #p1{
+        padding-top: 0;
+    }
+    .texto2{
+        height: auto;
+    }
+    #p2{
+        padding-top: 12rem;
+    }
+    /*section 5*/
+    #text1sec5{
+        font-size: 1.2rem;
+        margin-top: 5rem;
+    }
+    #text2sec5{
+        font-size: 1.2rem;
+    }
     .texto9 {
         font-size: 0.7rem;
         height: 15%;
         padding-top: 5rem;
         align-self: start;
     }
+    .letrero {
+        padding-left: 3rem;
+
+    }
 
     .sec9{
-        height: 110vh;
+        height: 140vh;
     }
     #recuadro{
         margin-top: 0%;
+    }
+    .btn9 {
+        font-size: 1.5rem;
+        padding: 1.3rem 3rem;
+        width: 80%;
     }
 }
