@@ -354,7 +354,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    padding-right: 10rem;
+  
 }
 
 .texto1s6 {
@@ -540,6 +540,25 @@ body {
     .cajatexto {
         width: 40rem;
     }
+
+}
+
+@media (max-width: 1300px){
+    .globo1s6 {
+        width: 25rem;
+        height: 13rem;
+        padding-left: 20rem;
+    }
+    .globo2s6 {
+        width: 40rem;
+        height: 17rem;
+        padding-left: 22rem;
+        z-index: 2;
+    }
+    .chicaimgs6 {
+        width: 35rem;
+        height: 35rem;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -586,6 +605,22 @@ body {
     }
     #text2sec5{
         font-size: 1.5rem;
+    }
+    /*section 6*/
+    .globo1s6 {
+        width: 20rem;
+        height: 10rem;
+        padding-left: 20rem;
+    }
+    .globo2s6 {
+        width: 36rem;
+        height: 15rem;
+        padding-left: 22rem;
+        z-index: 2;
+    }
+    .chicaimgs6 {
+        width: 35rem;
+        height: 35rem;
     }
     /*section 7*/
     #sec7Icon1{
@@ -635,9 +670,41 @@ body {
     .entorno{
         background-size: 100vw 120vh;
     }
+    /*section 6*/
+    .textosec6{
+        width: 40%;
+    }
+    .globo1s6 {
+        width: 17rem;
+        height: 10rem;
+        padding-left: 0rem;
+    }
+    .globo2s6 {
+        width: 22rem;
+        height: 15rem;
+        padding-left: 0rem;
+    }
+    .chicaimgs6 {
+        width: 26rem;
+        height: 26rem;
+    }
+    .texto1s6c{
+        margin-right: 1rem;
+        align-self: end;
+        padding-top: 4rem;
+    }
+    .imgsec6{
+        width: 60%;
+    }
+    .texto1s6{
+        font-size: 1.6rem;
+    }
     /*section 7*/
     .texto9{
         max-width: 60%;
+    }
+    #colortext1{
+        font-size: 1.6rem;
     }
 }
 
@@ -660,13 +727,14 @@ body {
     }
     .buttonsDiv {
         width: 100%;
-        padding: 0 3rem;
+
     }
     .btn9 {
         text-align: left;
         font-size: 2.5rem;
         padding: 1.3rem 5rem;
         border-radius: 40px;
+        width: 80%;
     }
     #azul {
         width: 100%;
@@ -740,6 +808,14 @@ body {
     }
     #cintaTxt{
         padding-top: 1rem;
+    }
+
+    /*section 3*/
+    .cajatexto {
+        width: 22rem;
+    }
+    .manoCel {
+        width: 16rem;
     }
 
     /*section 4*/
@@ -848,7 +924,149 @@ body {
         right: 10rem;
     }
 }
+@media (max-width: 640px) and (orientation: portrait) {
+    /*section 1*/
+    #pastel {
+        width: 25%;
+        z-index: 4;
+    }
+     /*Section 2*/
+     #cintaimg{
+        display: none;
+    }
+    #cintaimg2{
+        display: grid;
+        width: 68%;
+        justify-self: center;
+    }
+    #cintaTxt{
+        font-size: 1.3rem;
+        width: 60%;
+    }
+    #globoimg {
+        height: 10rem;
+        transform:translate(-8rem, -24rem);
+        justify-self: end;
+       z-index: 0;
+    }
+    /*section 3*/
+    .section3{
+        flex-direction: column;
+    }
+    .cajatexto {
+        width: 23rem;
+    }
+
+    .manoCel{
+        width: 15rem;
+        padding-top: 1rem;
+    }
+       /*section 4*/
+       .entorno {
+
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .texto1 {
+        height: 100%;
+        width: 70%;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+    }
+    #p1{
+        width: 100%;
+        padding: 0rem;
+        font-size: 1.4rem;
+        padding-top: 10rem;
+    }
+    .texto2{
+        width: 70%;
+        height: auto;
+        align-items: end;
+        justify-content: end;
+    }
+    #p2{
+        width: 100%;
+        font-size: 1.4rem;
+        padding-top: 16rem;
+        color: #e64a5e;
+        padding-bottom: 4rem;
+    }
+    #lunaimg {
+        width: 80%;
+    }
+    /*section 5*/
+    #text1sec5 {
+        margin-top: 13rem;
+        padding-right: 0rem;
+    }
+    #text2sec5{
+        padding-right: 0rem;
+        margin-top: 0;
+    }
+     /*section 6*/
+     .section6{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+    .imgsec6{
+        justify-content: start;
+        align-items: center;
+        padding: 0rem;
+        height: auto;
+    }
+    .chicaimgs6 {
+        width: 20rem;
+        height: 20rem;
+        padding-bottom: 4rem;
+    }
+    .textosec6{
+        justify-content: start;
+        width: 100%;
+        height: auto;
+        padding-bottom: 4rem;
+    }
+    .globo1s6 {
+        width: 15rem;
+        height: 5rem;
+        padding-left: 2rem;
+    }
+    .globo2s6 {
+        width: 20rem;
+        height: 7rem;
+        padding-left: 2rem;
+        z-index: 2;
+    }
+
+    .texto1s6c{
+        display: none;
+    }
+
+    .texto1s6cMobile{
+        display: inline;
+        width: 80%;
+        padding-bottom: 2rem;
+
+    }
+    .texto1s6 {
+     width: 26rem;
+     font-size: 1.5rem;
+    }
+    #colortext1 {
+      width: 25rem;
+      font-size: 1.5rem;
+    }
+
+}
 @media (max-height: 640px) and (orientation: landscape) {
+   
     /* Section 9 */
     .preguntaH {
         font-size: 1.5rem;
@@ -904,97 +1122,10 @@ body {
         padding-top: 1rem;
     }
     /*section 4*/
-    .entorno {
-        background-size: 120vw 120vh;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
+    #p2 {
+        padding-bottom: 4rem;
     }
-    .texto1 {
-        height: 100%;
-        width: 70%;
-        display: flex;
-        justify-content: end;
-        align-items: end;
-    }
-    #p1{
-        width: 100%;
-        padding: 0rem;
-        font-size: 1.4rem;
-        padding-top: 10rem;
-    }
-    .texto2{
-        width: 70%;
-        height: auto;
-        align-items: end;
-        justify-content: end;
-    }
-    #p2{
-        width: 100%;
-        font-size: 1.4rem;
-        padding-top: 16rem;
-        color: #e64a5e;
-    }
-    /*section 5*/
-    #text1sec5 {
-        margin-top: 13rem;
-        padding-right: 0rem;
-    }
-    #text2sec5{
-        padding-right: 0rem;
-        margin-top: 0;
-    }
-     /*section 6*/
-     .section6{
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: center;
-        align-items: center;
-    }
-    .imgsec6{
-        justify-content: center;
-        align-items: center;
-        padding: 0rem;
-    }
-    .chicaimgs6 {
-        width: 25rem;
-        height: 25rem;
-    }
-    .textosec6{
-        justify-content: start;
-    }
-    .globo1s6 {
-        width: 20rem;
-        height: 10rem;
-        padding-left: 2rem;
-    }
-    .globo2s6 {
-        width: 25rem;
-        height: 10rem;
-        padding-left: 2rem;
-        z-index: 2;
-    }
-
-    .texto1s6c{
-        display: none;
-    }
-
-    .texto1s6cMobile{
-        display: inline;
-        width: 90%;
-
-    }
-    .texto1s6 {
-
-        width: 26rem;}
-        #colortext1 {
-            
-            width: 25rem;
-
-        }
-
+ 
     /*section 7*/
     .sec9 {
         height: 135vh;
@@ -1006,6 +1137,10 @@ body {
     #sec7Icon2 {
         bottom: 10rem;
         right: 3rem;
+    }
+    .buttonsDiv {
+        width: 100%;
+        padding: 0rem;
     }
 }
 
