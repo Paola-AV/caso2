@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:wght@300&display=swap');
 body {
+    font-family: "Outfit", sans-serif;
     margin: 0;
 }
 
@@ -80,7 +82,7 @@ body {
 #cinta {
     position: relative;
     display: grid;
-    width: 75%;
+    width: 73%;
 }
 
 #cintaimg {
@@ -112,11 +114,26 @@ body {
 
 /*section 3*/
 .section3 {
+    position: relative;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     background-color: #3f1652;
+}
+#sec3Icon1{
+    width: 20%;
+    position: absolute;
+    z-index: 1;
+    top: -10%;
+    left: 50%;
+}
+#sec3Icon2{
+    width: 25%;
+    position: absolute;
+    z-index: 1;
+    bottom: 10%;
+    right: 0%;
 }
 
 .cajatexto {
@@ -126,6 +143,7 @@ body {
     align-items: center;
     justify-content: start;
     position: relative;
+    z-index: 4;
 }
 
 .cajaTxt {
@@ -135,6 +153,7 @@ body {
     width: 70%;
     color: white;
     font-size: 2rem;
+    z-index: 5;
 }
 
 .manoCel {
@@ -144,7 +163,7 @@ body {
     align-items: center;
     justify-content: start;
     position: relative;
-
+    z-index: 4;
 }
 
 /*section 4*/
@@ -354,8 +373,11 @@ body {
 .chicaimgs6 {
     width: 40rem;
     height: 40rem;
-
-
+}
+.chicaimgsec6{
+    padding-top: 7rem;
+    width: 50rem;
+    height: 50rem;
 }
 
 .section6 {
@@ -767,6 +789,11 @@ body {
         width: 31rem;
         height: 31rem;
     }
+    .chicaimgsec6{
+        padding-top: 6rem;
+        width: 40rem;
+        height: 40rem;
+    }
 
     /*section 7*/
     #sec7Icon1 {
@@ -901,7 +928,11 @@ body {
     #text2sec5 {
         padding-right: 7rem;
     }
-
+    .chicaimgsec6{
+        padding-top: 7rem;
+        width: 30rem;
+        height: 30rem;
+    }
     /*Section9*/
     .sec9 {
         position: relative;
@@ -1443,6 +1474,20 @@ body {
         width: 15rem;
         padding-top: 1rem;
     }
+    #sec3Icon1{
+        width: 30%;
+        position: absolute;
+        z-index: 1;
+        top: -10%;
+        left: 10%;
+    }
+    #sec3Icon2{
+        width: 35%;
+        position: absolute;
+        z-index: 1;
+        bottom: 10%;
+        right: 0%;
+    }
 
     /*section 4*/
     #p2 {
@@ -1455,7 +1500,22 @@ body {
     .letrero {
         padding-left: 4rem;
     }
-
+    /*section 6*/
+    .sec6-1Icon {
+        width: 6rem;
+        padding-top: 1rem;
+    }
+    .texto1s6c-1 {
+        font-size: 1.5rem;
+    }
+    #colortext1s6-1{
+        font-size: 1.5rem;
+    }
+    .chicaimgsec6 {
+        padding-top: 6rem;
+        width: 24rem;
+        height: 24rem;
+    }
     /*section 7*/
     .sec9 {
         height: 135vh;
@@ -1610,7 +1670,18 @@ body {
     .texto1s6c-1 {
         font-size: 1.3rem;
     }
-
+    .texto1s6c-1 {
+        font-size: 1.3rem;
+    }
+    #colortext1s6-1{
+        font-size: 1.3rem;
+    }
+    .chicaimgsec6 {
+        padding-top: 2rem;
+        width: 24rem;
+        height: 24rem;
+    }
+    /*section 9*/
     .sec9 {
         height: 140vh;
     }
