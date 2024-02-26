@@ -7,7 +7,7 @@ body {
     padding: 0px;
     display: flex;
     flex-direction: column;
-    
+
 }
 
 .content1 {
@@ -15,14 +15,14 @@ body {
     height: 100%;
     width: 100%;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     column-gap: 0;
 }
 
 
 
 .contPastel {
-    display:grid;
+    display: grid;
     gap: 0;
     height: auto;
 }
@@ -48,7 +48,8 @@ body {
     height: auto;
     position: relative;
 }
-#confetiImgMob{
+
+#confetiImgMob {
     display: none;
 }
 
@@ -76,9 +77,9 @@ body {
 
 }
 
-#cinta{
-    position: relative; 
-    display: grid; 
+#cinta {
+    position: relative;
+    display: grid;
     width: 75%;
 }
 
@@ -89,11 +90,11 @@ body {
 
 }
 
-#cintaimg2{
+#cintaimg2 {
     display: none;
 }
 
-#cintaTxt{
+#cintaTxt {
     color: white;
     padding-left: 22rem;
     justify-self: center;
@@ -104,8 +105,8 @@ body {
     padding-top: 2rem;
 }
 
-#globoDiv{
-    display: grid; 
+#globoDiv {
+    display: grid;
     width: 15%;
 }
 
@@ -127,7 +128,7 @@ body {
     position: relative;
 }
 
-.cajaTxt{
+.cajaTxt {
     position: absolute;
     justify-self: center;
     align-self: center;
@@ -145,6 +146,7 @@ body {
     position: relative;
 
 }
+
 /*section 4*/
 .section4 {
     height: 100vh;
@@ -190,7 +192,6 @@ body {
     color: white;
     font-size: 2rem;
     text-align: center;
-
     padding-bottom: 8rem;
 }
 
@@ -277,18 +278,24 @@ body {
     padding-left: 8rem;
 }
 
-.letreroimg{
-    filter: drop-shadow(0 0 0 rgba(243, 198, 239, 0.4)); /* Establece la sombra inicial */
-    animation: sombraAnimacion 1.6s infinite alternate; /* Define la animación */
+.letreroimg {
+    filter: drop-shadow(0 0 0 rgba(243, 198, 239, 0.4));
+    /* Establece la sombra inicial */
+    animation: sombraAnimacion 1.6s infinite alternate;
+    /* Define la animación */
 }
+
 @keyframes sombraAnimacion {
     0% {
-      filter: drop-shadow(0 0 0 rgba(243, 198, 239, 0.4)); /* Tamaño inicial de la sombra */
+        filter: drop-shadow(0 0 0 rgba(243, 198, 239, 0.4));
+        /* Tamaño inicial de la sombra */
     }
+
     100% {
-      filter: drop-shadow(0 0 26px rgba(243, 198, 239, 0.4)); /* Tamaño final de la sombra */
+        filter: drop-shadow(0 0 26px rgba(243, 198, 239, 0.4));
+        /* Tamaño final de la sombra */
     }
-  }
+}
 
 .sec5Text {
     width: 30%;
@@ -306,6 +313,7 @@ body {
 #text2sec5 {
     padding-top: 1rem;
 }
+
 /*wrapper sec 6 y 6.1*/
 .container6 {
     position: relative;
@@ -355,7 +363,7 @@ body {
     flex-direction: row;
 }
 
-.texto1s6cMobile{
+.texto1s6cMobile {
     display: none;
 }
 
@@ -371,7 +379,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: start;
-  
+
 }
 
 .texto1s6 {
@@ -383,7 +391,7 @@ body {
     display: flex;
     transform: translateY(-5rem);
     display: inline;
-   
+
 
 }
 
@@ -403,11 +411,12 @@ body {
     width: 5rem;
     align-self: flex-end;
     display: flex;
-    
+
     display: inline;
 }
+
 /*section 6.1*/
-.section6-1{
+.section6-1 {
     width: 100%;
     background-color: #101227;
     display: none;
@@ -419,28 +428,33 @@ body {
     bottom: 0;
     z-index: 6;
 }
-.sec6-1Img{
+
+.sec6-1Img {
     width: 50%;
     display: flex;
     justify-content: center;
 }
-.sec6-1Txt{
+
+.sec6-1Txt {
     display: flex;
     flex-direction: column;
     width: 50%;
     justify-content: center;
     align-items: center;
 }
-.sec6-1Icon{
+
+.sec6-1Icon {
     width: 9rem;
     padding-top: 2rem;
 }
-.texto1s6c-1{
+
+.texto1s6c-1 {
     display: inline;
     text-align: center;
     font-size: 2rem;
     width: 60%;
 }
+
 .texto1s6-1 {
     color: white;
     text-align: center;
@@ -456,14 +470,17 @@ body {
     width: 5rem;
     align-self: flex-end;
     display: flex;
-    
+
     display: inline;
 }
+
 #chica {
-    transition: transform 600ms ease; /* Define la transición */
-    transform: translateX(0); /* Valor inicial */
-  }
-  
+    transition: transform 600ms ease;
+    /* Define la transición */
+    transform: translateX(0);
+    /* Valor inicial */
+}
+
 /*section 7*/
 .sec9 {
     background-color: #111328;
@@ -475,14 +492,14 @@ body {
     height: 110vh;
 }
 
-#sec7Icon1{
+#sec7Icon1 {
     width: 15rem;
     position: absolute;
     top: 13rem;
     left: 20rem;
 }
 
-#sec7Icon2{
+#sec7Icon2 {
     width: 18rem;
     position: absolute;
     bottom: 5rem;
@@ -549,11 +566,11 @@ body {
     border-radius: 30px;
 }
 
-#texto9a{
+#texto9a {
     background-color: #ff95bd;
 }
 
-#texto9b{
+#texto9b {
     background-color: #ccff9a;
 }
 
@@ -585,7 +602,7 @@ body {
     color: #111328;
     margin-top: 1rem;
     padding: 1rem;
-    
+
     justify-self: flex-end;
     align-self: flex-end;
     justify-content: center;
@@ -597,28 +614,33 @@ body {
 
 @media (max-width: 1400px) {
 
-    #cintaimg{
-        width: 60rem;
+    #cintaimg {
+        width: 50rem;
     }
-    #cintaTxt{
+
+    #cintaTxt {
         justify-self: start;
     }
 
-    #globoimg{
+    #globoimg {
         height: 35rem;
     }
+
     /*Section 3*/
     .manoCel {
         width: 20rem;
     }
+
     .cajatexto {
         width: 40rem;
     }
+
     .globo2s6 {
         padding-left: 0rem;
         width: 45rem;
         height: 15rem;
     }
+
     .globo1s6 {
         padding-left: 0rem;
         width: 40rem;
@@ -627,16 +649,49 @@ body {
 
 }
 
-@media (max-width: 1300px){
+@media (max-width: 1400px) and (orientation: landscape) {
+    #p2 {
+        padding-bottom: 1rem;
+    }
+
+    #text1sec5 {
+        padding-top: 0rem;
+    }
+
+    #text1sec5 {
+        font-size: 1.5rem;
+    }
+
+    #text2sec5 {
+        font-size: 1.5rem;
+    }
+
+    .container6 {
+        height: 120vh;
+    }
+
+    .chicaimgs6 {
+        width: 30rem;
+        height: 30rem;
+    }
+
+    .sec9 {
+        height: 120vh;
+    }
+}
+
+@media (max-width: 1300px) {
     .globo1s6 {
         width: 25rem;
         height: 13rem;
     }
+
     .globo2s6 {
         width: 40rem;
         height: 17rem;
         z-index: 2;
     }
+
     .chicaimgs6 {
         width: 35rem;
         height: 35rem;
@@ -644,151 +699,180 @@ body {
 }
 
 @media (max-width: 1200px) {
-    #cintaimg{
+    #cintaimg {
         width: 50rem;
     }
-    #cintaTxt{
+
+    #cintaTxt {
         justify-self: center;
         width: 50%;
         padding-left: 10rem;
     }
 
-    .entorno{
+    .entorno {
         background-size: 100vw 110vh;
     }
+
     /* Section 4 */
 
-    #nube1{
+    #nube1 {
         width: 25rem;
     }
-    #nube3{
+
+    #nube3 {
         width: 25rem;
     }
-    .luna{
+
+    .luna {
         padding-right: 5rem;
     }
 
-    .texto2{
+    .texto2 {
         justify-content: center;
     }
 
-    #p2{
+    #p2 {
         padding-bottom: 2rem;
     }
 
-    .letrero{
+    .letrero {
         padding-left: 30rem;
     }
-    .sec5Text{
+
+    .sec5Text {
         padding-left: 30rem;
     }
-    #text1sec5{
+
+    #text1sec5 {
         font-size: 1.5rem;
     }
-    #text2sec5{
+
+    #text2sec5 {
         font-size: 1.5rem;
     }
+
     /*section 6*/
     .globo1s6 {
         width: 20rem;
         height: 10rem;
     }
+
     .globo2s6 {
         width: 36rem;
         height: 15rem;
         z-index: 2;
     }
+
     .chicaimgs6 {
         width: 31rem;
         height: 31rem;
     }
+
     /*section 7*/
-    #sec7Icon1{
+    #sec7Icon1 {
         width: 15rem;
         position: absolute;
         top: 13rem;
         left: 5rem;
     }
-    
+
 }
 
-@media (max-width: 1200px) and (orientation: landscape){
-    .letrero{
+@media (max-width: 1200px) and (orientation: landscape) {
+    .letrero {
         padding-left: 30rem;
     }
-    .sec5Text{
+
+    .sec5Text {
         padding-left: 30rem;
     }
-    #text1sec5{
+
+    #text1sec5 {
         font-size: 1.5rem;
     }
-    #text2sec5{
+
+    #text2sec5 {
         font-size: 1.5rem;
     }
 }
 
 @media (max-width: 1024px) {
-    #cintaimg{
+    #cintaimg {
         width: 50rem;
     }
-    #cintaTxt{
+
+    #cintaTxt {
         justify-self: center;
         width: 60%;
         padding-left: 8rem;
     }
-    #globoimg{
+
+    #globoimg {
         height: 25rem;
         transform: translateY(-10rem);
     }
-     /*Section 3*/
-     .manoCel {
+
+    /*Section 3*/
+    .manoCel {
         width: 18rem;
     }
+
     .cajatexto {
         width: 30rem;
     }
-    .entorno{
+
+    .entorno {
         background-size: 100vw 120vh;
     }
+
     /*section 6*/
-    .textosec6{
+    .textosec6 {
         width: 40%;
     }
+
     .globo1s6 {
         width: 17rem;
         height: 10rem;
         padding-left: 0rem;
     }
+
     .globo2s6 {
         width: 22rem;
         height: 15rem;
         padding-left: 0rem;
     }
+
     .chicaimgs6 {
         width: 26rem;
         height: 26rem;
     }
-    .texto1s6c{
+
+    .texto1s6c {
         margin-right: 1rem;
         align-self: end;
         padding-top: 4rem;
     }
-    .imgsec6{
+
+    .imgsec6 {
         width: 60%;
     }
-    .texto1s6{
+
+    .texto1s6 {
         font-size: 1.6rem;
     }
+
     /*section 7*/
-    .texto9{
+    .texto9 {
         max-width: 60%;
     }
-    #colortext1{
+
+    #colortext1 {
         font-size: 1.6rem;
     }
 }
 
 @media (max-width: 1024px) and (orientation: portrait) {
+
     /*Section 5*/
     .letrero {
         padding-left: 0rem;
@@ -796,11 +880,11 @@ body {
         padding-right: 1rem;
     }
 
-    .letreroimg{
+    .letreroimg {
         width: 8rem;
     }
 
-    .sec5Text{
+    .sec5Text {
         padding-left: 0rem;
         height: 100%;
         width: 80%;
@@ -809,13 +893,15 @@ body {
         justify-content: center;
     }
 
-    #text1sec5{
+    #text1sec5 {
         margin-top: 10rem;
         padding-right: 7rem;
     }
-    #text2sec5{
+
+    #text2sec5 {
         padding-right: 7rem;
     }
+
     /*Section9*/
     .sec9 {
         position: relative;
@@ -826,15 +912,18 @@ body {
         padding-top: 2rem;
         height: 110vh;
     }
+
     .preguntaH {
         font-size: 3rem;
         margin: 0 10rem 3rem 10rem;
         text-align: center;
     }
+
     .buttonsDiv {
         width: 100%;
 
     }
+
     .btn9 {
         text-align: left;
         font-size: 2.5rem;
@@ -842,74 +931,88 @@ body {
         border-radius: 40px;
         width: 80%;
     }
+
     #azul {
         width: 100%;
     }
+
     #recuadro {
         width: 90%;
     }
+
     .texto9 {
         padding-top: 2rem;
         max-width: 85%;
         font-size: 1.8rem;
     }
+
     #rojo {
         width: 100%;
     }
 }
 
 @media (max-width: 900px) {
-    
-    #cintaimg{
+
+    #cintaimg {
         width: 40rem;
     }
-    #cintaTxt{
+
+    #cintaTxt {
         justify-self: center;
         text-align: center;
         width: 57%;
         padding-left: 0;
     }
-    #globoimg{
+
+    #globoimg {
         height: 25rem;
         transform: translateY(-10rem);
     }
+
     /*Section 3*/
-    .cajaTxt{
-       
+    .cajaTxt {
+
         font-size: 1.5rem;
     }
 
 
     /*Section 4*/
-    .entorno{
+    .entorno {
         background-size: 100vw 130vh;
     }
-    .luna{
+
+    .luna {
         padding-right: 0rem;
     }
-    #lunaimg{
+
+    #lunaimg {
         height: 8rem;
     }
-    #nube1{
+
+    #nube1 {
         width: 18rem;
     }
-    #nube3{
+
+    #nube3 {
         width: 18rem;
     }
-    #nube2{
+
+    #nube2 {
         width: 35rem;
     }
 }
 
-@media (max-width:830px) and (orientation:portrait){
+@media (max-width:830px) and (orientation:portrait) {
     .imgsec6 {
         width: 50%;
     }
+
     .globo1s6 {
         width: 20rem;
         height: 10rem;
         justify-self: center;
     }
+
     .globo2s6 {
         width: 25rem;
         height: 10rem;
@@ -920,17 +1023,21 @@ body {
 }
 
 @media (max-width: 768px) and (orientation: portrait) {
+
     /*Section 2*/
-    #cinta{
+    #cinta {
         width: 100%;
     }
-    #globoDiv{
+
+    #globoDiv {
         width: 0%;
     }
-    #cintaimg{
+
+    #cintaimg {
         justify-self: center;
     }
-    #cintaTxt{
+
+    #cintaTxt {
         padding-top: 1rem;
     }
 
@@ -938,20 +1045,22 @@ body {
     .cajatexto {
         width: 22rem;
     }
+
     .manoCel {
         width: 16rem;
     }
 
     /*section 4*/
-    .nube{
+    .nube {
         padding-top: 5rem;
     }
-    #p2{
+
+    #p2 {
         padding-bottom: 15rem;
     }
 
     /*Section 5*/
-   
+
 
     .letrero {
         padding-left: 0rem;
@@ -959,11 +1068,11 @@ body {
         padding-right: 1rem;
     }
 
-    .letreroimg{
+    .letreroimg {
         width: 8rem;
     }
 
-    .sec5Text{
+    .sec5Text {
         padding-left: 0rem;
         height: 100%;
         width: 80%;
@@ -972,38 +1081,44 @@ body {
         justify-content: center;
     }
 
-    #text1sec5{
+    #text1sec5 {
         margin-top: 10rem;
         padding-right: 7rem;
     }
-    #text2sec5{
+
+    #text2sec5 {
         padding-right: 7rem;
     }
 
     /*section 6*/
-    .section6{
+    .section6 {
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
     }
-    .imgsec6{
+
+    .imgsec6 {
         justify-content: center;
         align-items: center;
         padding: 0rem;
     }
+
     .chicaimgs6 {
         width: 25rem;
         height: 25rem;
     }
-    .textosec6{
+
+    .textosec6 {
         justify-content: start;
     }
+
     .globo1s6 {
         width: 20rem;
         height: 10rem;
         justify-self: center;
     }
+
     .globo2s6 {
         width: 25rem;
         height: 10rem;
@@ -1011,93 +1126,112 @@ body {
         justify-self: center;
     }
 
-    .texto1s6c{
+    .texto1s6c {
         display: none;
     }
 
-    .texto1s6cMobile{
+    .texto1s6cMobile {
         display: inline;
         width: 90%;
 
     }
+
     .texto1s6 {
 
-        width: 26rem;}
-        #colortext1 {
-            
-            width: 25rem;
+        width: 26rem;
+    }
 
-        }
-        .section6-1 {
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .texto1s6c-1 {
-            font-size: 1.7rem;
-            width: 100%;
-            padding-top: 2rem;
-        }
+    #colortext1 {
+
+        width: 25rem;
+
+    }
+
+    .section6-1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .texto1s6c-1 {
+        font-size: 1.7rem;
+        width: 100%;
+        padding-top: 2rem;
+    }
+
     /*Section9*/
-    .sec9{
+    .sec9 {
         height: 130vh;
     }
+
     .btn9 {
         font-size: 2.2rem;
         padding: 1.3rem 3rem;
         width: 80%;
     }
-    .texto9{
+
+    .texto9 {
         font-size: 1.6rem;
     }
+
     #recuadro {
         width: 100%;
         height: 90%;
     }
-    #sec7Icon2{
+
+    #sec7Icon2 {
         bottom: 10rem;
         right: 10rem;
     }
 }
+
 @media (max-width: 640px) and (orientation: portrait) {
+
     /*section 1*/
     #pastel {
         width: 25%;
         z-index: 4;
     }
-     /*Section 2*/
-     #cintaimg{
+
+    /*Section 2*/
+    #cintaimg {
         display: none;
     }
-    #cintaimg2{
+
+    #cintaimg2 {
         display: grid;
         width: 68%;
         justify-self: center;
     }
-    #cintaTxt{
+
+    #cintaTxt {
         font-size: 1.3rem;
         width: 60%;
     }
+
     #globoimg {
         height: 10rem;
-        transform:translate(-8rem, -24rem);
+        transform: translate(-8rem, -24rem);
         justify-self: end;
-       z-index: 0;
+        z-index: 0;
     }
+
     /*section 3*/
-    .section3{
+    .section3 {
         flex-direction: column;
     }
+
     .cajatexto {
         width: 23rem;
     }
 
-    .manoCel{
+    .manoCel {
         width: 15rem;
         padding-top: 1rem;
     }
-       /*section 4*/
-       .entorno {
+
+    /*section 4*/
+    .entorno {
         background-image: url("../src/intento3Entorno.svg");
         background-size: cover;
         width: 100%;
@@ -1106,6 +1240,7 @@ body {
         align-items: center;
 
     }
+
     .texto1 {
         height: 100%;
         width: 70%;
@@ -1113,98 +1248,114 @@ body {
         justify-content: end;
         align-items: end;
     }
-    #p1{
+
+    #p1 {
         width: 100%;
         padding: 0rem;
         font-size: 1.4rem;
         padding-top: 10rem;
     }
-    .texto2{
+
+    .texto2 {
         width: 70%;
         height: auto;
         align-items: end;
         justify-content: end;
     }
-    #p2{
+
+    #p2 {
         width: 100%;
         font-size: 1.4rem;
         padding-top: 16rem;
         color: #e64a5e;
         padding-bottom: 4rem;
     }
+
     #lunaimg {
         width: 80%;
     }
+
     /*section 5*/
-    .section5{
+    .section5 {
         background-image: url('../src/barMobile3.svg');
         background-size: cover;
     }
+
     #text1sec5 {
         margin-top: 13rem;
         padding-right: 0rem;
     }
-    #text2sec5{
+
+    #text2sec5 {
         padding-right: 0rem;
         margin-top: 0;
     }
-     /*section 6*/
-     .section6{
+
+    /*section 6*/
+    .section6 {
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
         height: auto;
     }
-    .imgsec6{
+
+    .imgsec6 {
         justify-content: start;
         align-items: center;
         padding: 0rem;
         height: auto;
     }
+
     .chicaimgs6 {
         width: 20rem;
         height: 20rem;
         padding-bottom: 4rem;
     }
-    .textosec6{
+
+    .textosec6 {
         justify-content: start;
         width: 100%;
         height: auto;
         padding-bottom: 4rem;
     }
+
     .globo1s6 {
         width: 15rem;
         height: 6rem;
     }
+
     .globo2s6 {
         width: 20rem;
         height: 8rem;
         z-index: 2;
     }
 
-    .texto1s6c{
+    .texto1s6c {
         display: none;
     }
 
-    .texto1s6cMobile{
+    .texto1s6cMobile {
         display: inline;
         width: 80%;
         padding-bottom: 2rem;
 
     }
+
     .texto1s6 {
-     width: 26rem;
-     font-size: 1.5rem;
+        width: 26rem;
+        font-size: 1.5rem;
     }
+
     #colortext1 {
-      width: 25rem;
-      font-size: 1.5rem;
+        width: 25rem;
+        font-size: 1.5rem;
     }
 
 }
+
 @media (max-height: 640px) and (orientation: landscape) {
-   
+
     /* Section 9 */
     .preguntaH {
         font-size: 1.5rem;
@@ -1222,74 +1373,89 @@ body {
 }
 
 @media (max-width: 500px) and (orientation: portrait) {
-    .sec9{
+    .sec9 {
         height: 100vh;
     }
 }
 
-@media(max-width:435px){
+@media(max-width:435px) {
+
     /*section 1*/
-    .section1{
+    .section1 {
         height: 40vh;
     }
-    .confeti{
+
+    .confeti {
         display: grid;
     }
-    #confetiimg{
+
+    #confetiimg {
         display: none;
     }
-    #confetiImgMob{
+
+    #confetiImgMob {
         display: grid;
         width: 100%;
     }
-    .contPastel{
+
+    .contPastel {
         height: 100%;
     }
+
     #pastel {
         width: 46%;
         align-self: end;
     }
+
     /*Section 2*/
-    #cintaimg{
+    #cintaimg {
         display: none;
     }
-    #cintaimg2{
+
+    #cintaimg2 {
         display: grid;
         width: 90%;
         justify-self: center;
     }
-    #cintaTxt{
+
+    #cintaTxt {
         font-size: 1.3rem;
         width: 60%;
     }
+
     #globoimg {
         height: 15rem;
         transform: translate(-4rem, -28rem);
         justify-self: end;
         z-index: 0;
     }
+
     /*Section 3*/
-    .section3{
+    .section3 {
         flex-direction: column;
     }
+
     .cajatexto {
         width: 23rem;
     }
 
-    .manoCel{
+    .manoCel {
         width: 15rem;
         padding-top: 1rem;
     }
+
     /*section 4*/
     #p2 {
         padding-bottom: 4rem;
     }
-    .entorno{
-        
-    }
+
+    .entorno {}
+
     /*section 5*/
     .letrero {
-        padding-left: 4rem;}
+        padding-left: 4rem;
+    }
+
     /*section 7*/
     .sec9 {
         height: 135vh;
@@ -1298,21 +1464,24 @@ body {
     #sec7Icon1 {
         top: 2rem;
     }
+
     #sec7Icon2 {
         bottom: 10rem;
         right: 3rem;
     }
+
     .buttonsDiv {
         width: 100%;
         padding: 0rem;
     }
+
     .btn9 {
         font-size: 1.5rem;
     }
 }
 
 @media (max-height: 425px) and (orientation: landscape) {
-    
+
     /* Section 9 */
     .preguntaH {
         font-size: 1.3rem;
@@ -1333,97 +1502,123 @@ body {
     }
 
 }
+
 @media (max-width:420px) and (orientation: portrait) {
     #p2 {
 
         padding-top: 11rem;
     }
-    .sec9{
+
+    .sec9 {
         height: 150vh;
     }
 }
+
 @media (max-width: 375px) and (orientation: portrait) {
-   /*section 1*/
+
+    /*section 1*/
     #pastel {
-    width: 35%;
+        width: 35%;
     }
+
     /*section 2*/
-    #cintaTxt{
+    #cintaTxt {
         margin-top: 0rem;
     }
+
     #globoimg {
         height: 11rem;
         transform: translate(-5rem, -26rem);
     }
+
     /*section 4*/
-    .text2sec5{
+    .text2sec5 {
         height: auto;
     }
-    #p1{
+
+    #p1 {
         padding-top: 0;
     }
-    .texto2{
+
+    .texto2 {
         height: auto;
     }
-    #p2{
+
+    #p2 {
         padding-top: 12rem;
     }
-    .entorno {
-    }
+
+    .entorno {}
+
     /*section 5*/
-    #text1sec5{
+    #text1sec5 {
         font-size: 1.2rem;
         margin-top: 5rem;
     }
-    #text2sec5{
+
+    #text2sec5 {
         font-size: 1.2rem;
     }
+
     .texto9 {
         font-size: 0.7rem;
 
         padding-top: 5rem;
         align-self: start;
     }
+
     .letrero {
         padding-left: 3rem;
 
     }
+
     /*section 6*/
     .chicaimgs6 {
         width: 15rem;
         height: 15rem;
     }
+
     .textosec6 {
         padding-bottom: 1rem;
     }
+
     .globo1s6 {
         height: 5rem;
     }
+
     .globo2s6 {
         height: 7rem;
     }
+
     .texto1s6 {
         font-size: 1.3rem;
     }
+
     #colortext1 {
         font-size: 1.3rem;
     }
+
     .sec6-1Icon {
         width: 3rem;
         padding-top: 2rem;
     }
+
     .texto1s6c-1 {
         font-size: 1.3rem;
     }
+
     .texto1s6c-1 {
         font-size: 1.3rem;
     }
-    .sec9{
+
+    .sec9 {
         height: 140vh;
     }
-    #recuadro{
+
+    #recuadro {
         margin-top: 0%;
     }
+
     .btn9 {
         font-size: 1.5rem;
         padding: 1.3rem 3rem;

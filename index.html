@@ -211,19 +211,24 @@
             var alturaVentana = window.innerHeight;
             var anchoVentana = window.innerWidth;
             var size = 0;
-//1000 pa desktop grande - 
+            console.log(alturaVentana + "altura")
+            //1000 pa desktop grande - 
             //cambio de variable size dependiendo de ancho de pantalla
             if (anchoVentana <= 768) {
                 size = 160;
             } else {
-                size =70;
+                size = 70;
             }
             if (anchoVentana <= 375) {
                 size = 10;
             }
+            if (alturaVentana < anchoVentana) {
+                size = 120
+            }
+
 
             // Si el elemento está en el área visible de la ventana, agrega la clase, de lo contrario, quítala
-            if (posicion <= alturaVentana-size) {
+            if (posicion <= alturaVentana - size) {
                 chica.style.transform = 'translateX(' + -45 + 'rem)';
                 txtMob.classList.add('fadeOut');
                 txtDesk.classList.add('fadeOut');
