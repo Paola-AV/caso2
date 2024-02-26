@@ -82,13 +82,13 @@ body {
 #cinta {
     position: relative;
     display: grid;
-    width: 73%;
+    width: 100%;
 }
 
 #cintaimg {
     width: 65rem;
     height: 12rem;
-    justify-self: end;
+    justify-self: center;
 
 }
 
@@ -98,10 +98,9 @@ body {
 
 #cintaTxt {
     color: white;
-    padding-left: 22rem;
     justify-self: center;
     align-self: start;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     width: 50%;
     position: absolute;
     padding-top: 2rem;
@@ -109,7 +108,7 @@ body {
 
 #globoDiv {
     display: grid;
-    width: 15%;
+    width: 0%;
 }
 
 /*section 3*/
@@ -475,7 +474,9 @@ body {
     text-align: center;
     font-size: 2rem;
     width: 60%;
+    justify-content: center;
 }
+
 
 .texto1s6-1 {
     color: white;
@@ -484,6 +485,16 @@ body {
     align-self: flex-end;
     display: flex;
     display: inline;
+}
+
+.texto1s6c-2{
+    color: white;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
 }
 
 #colortext1s6-1 {
@@ -640,10 +651,6 @@ body {
         width: 50rem;
     }
 
-    #cintaTxt {
-        justify-self: start;
-    }
-
     #globoimg {
         height: 35rem;
     }
@@ -728,7 +735,7 @@ body {
     #cintaTxt {
         justify-self: center;
         width: 50%;
-        padding-left: 10rem;
+
     }
 
     .entorno {
@@ -831,7 +838,7 @@ body {
     #cintaTxt {
         justify-self: center;
         width: 60%;
-        padding-left: 8rem;
+        font-size: 1.2rem;
     }
 
     #globoimg {
@@ -887,7 +894,9 @@ body {
     .texto1s6 {
         font-size: 1.6rem;
     }
-
+    .texto1s6c-2{
+        font-size: 1.5rem;
+    }
     /*section 7*/
     .texto9 {
         max-width: 60%;
@@ -1506,15 +1515,19 @@ body {
         padding-top: 1rem;
     }
     .texto1s6c-1 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
+        padding-top: 0rem;
     }
     #colortext1s6-1{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     .chicaimgsec6 {
         padding-top: 6rem;
         width: 24rem;
         height: 24rem;
+    }
+    .texto1s6c-2{
+        font-size: 1.3rem;
     }
     /*section 7*/
     .sec9 {
@@ -1633,6 +1646,9 @@ body {
     }
 
     /*section 6*/
+    .container6{
+        height: 120vh;
+    }
     .chicaimgs6 {
         width: 15rem;
         height: 15rem;
