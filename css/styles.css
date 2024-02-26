@@ -48,6 +48,9 @@ body {
     height: auto;
     position: relative;
 }
+#confetiImgMob{
+    display: none;
+}
 
 .pasteltxt {
     width: 100%;
@@ -786,6 +789,33 @@ body {
 }
 
 @media (max-width: 1024px) and (orientation: portrait) {
+    /*Section 5*/
+    .letrero {
+        padding-left: 0rem;
+        padding-top: 1rem;
+        padding-right: 1rem;
+    }
+
+    .letreroimg{
+        width: 8rem;
+    }
+
+    .sec5Text{
+        padding-left: 0rem;
+        height: 100%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #text1sec5{
+        margin-top: 10rem;
+        padding-right: 7rem;
+    }
+    #text2sec5{
+        padding-right: 7rem;
+    }
     /*Section9*/
     .sec9 {
         position: relative;
@@ -869,6 +899,24 @@ body {
     #nube2{
         width: 35rem;
     }
+}
+
+@media (max-width:830px) and (orientation:portrait){
+    .imgsec6 {
+        width: 50%;
+    }
+    .globo1s6 {
+        width: 20rem;
+        height: 10rem;
+        justify-self: center;
+    }
+    .globo2s6 {
+        width: 25rem;
+        height: 10rem;
+        z-index: 2;
+        justify-self: center;
+    }
+
 }
 
 @media (max-width: 768px) and (orientation: portrait) {
@@ -1050,7 +1098,8 @@ body {
     }
        /*section 4*/
        .entorno {
-
+        background-image: url("../src/intento3Entorno.svg");
+        background-size: cover;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -1088,7 +1137,7 @@ body {
     }
     /*section 5*/
     .section5{
-        background-image: url('../src/barMobile.svg');
+        background-image: url('../src/barMobile3.svg');
         background-size: cover;
     }
     #text1sec5 {
@@ -1126,11 +1175,11 @@ body {
     }
     .globo1s6 {
         width: 15rem;
-        height: 5rem;
+        height: 6rem;
     }
     .globo2s6 {
         width: 20rem;
-        height: 7rem;
+        height: 8rem;
         z-index: 2;
     }
 
@@ -1179,6 +1228,27 @@ body {
 }
 
 @media(max-width:435px){
+    /*section 1*/
+    .section1{
+        height: 40vh;
+    }
+    .confeti{
+        display: grid;
+    }
+    #confetiimg{
+        display: none;
+    }
+    #confetiImgMob{
+        display: grid;
+        width: 100%;
+    }
+    .contPastel{
+        height: 100%;
+    }
+    #pastel {
+        width: 46%;
+        align-self: end;
+    }
     /*Section 2*/
     #cintaimg{
         display: none;
@@ -1193,10 +1263,10 @@ body {
         width: 60%;
     }
     #globoimg {
-        height: 10rem;
-        transform:translate(-8rem, -24rem);
+        height: 15rem;
+        transform: translate(-4rem, -28rem);
         justify-self: end;
-       z-index: 0;
+        z-index: 0;
     }
     /*Section 3*/
     .section3{
@@ -1215,7 +1285,7 @@ body {
         padding-bottom: 4rem;
     }
     .entorno{
-        background-position-y: calc(50% - -12.5rem);
+        
     }
     /*section 5*/
     .letrero {
@@ -1266,15 +1336,24 @@ body {
 @media (max-width:420px) and (orientation: portrait) {
     #p2 {
 
-        padding-top: 12rem;
+        padding-top: 11rem;
     }
     .sec9{
         height: 150vh;
     }
 }
 @media (max-width: 375px) and (orientation: portrait) {
+   /*section 1*/
+    #pastel {
+    width: 35%;
+    }
+    /*section 2*/
     #cintaTxt{
         margin-top: 0rem;
+    }
+    #globoimg {
+        height: 11rem;
+        transform: translate(-5rem, -26rem);
     }
     /*section 4*/
     .text2sec5{
@@ -1290,7 +1369,6 @@ body {
         padding-top: 12rem;
     }
     .entorno {
-        background-position-y: calc(50% - -7rem);
     }
     /*section 5*/
     #text1sec5{
@@ -1302,7 +1380,7 @@ body {
     }
     .texto9 {
         font-size: 0.7rem;
-        height: 15%;
+
         padding-top: 5rem;
         align-self: start;
     }
@@ -1310,7 +1388,36 @@ body {
         padding-left: 3rem;
 
     }
-
+    /*section 6*/
+    .chicaimgs6 {
+        width: 15rem;
+        height: 15rem;
+    }
+    .textosec6 {
+        padding-bottom: 1rem;
+    }
+    .globo1s6 {
+        height: 5rem;
+    }
+    .globo2s6 {
+        height: 7rem;
+    }
+    .texto1s6 {
+        font-size: 1.3rem;
+    }
+    #colortext1 {
+        font-size: 1.3rem;
+    }
+    .sec6-1Icon {
+        width: 3rem;
+        padding-top: 2rem;
+    }
+    .texto1s6c-1 {
+        font-size: 1.3rem;
+    }
+    .texto1s6c-1 {
+        font-size: 1.3rem;
+    }
     .sec9{
         height: 140vh;
     }

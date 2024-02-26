@@ -15,6 +15,7 @@
     <section class="section1">
         <div class="confeti">
             <img class="slideDown" id="confetiimg" src="src/c2-p1-confetti.svg" alt="">
+            <img class="slideDown" id="confetiImgMob" src="src/confetiMob.svg" alt="">
         </div>
         <div class="contPastel">
             <img id="pastel" src="src/c2-p1-pastel.svg" alt="">
@@ -106,8 +107,8 @@
             </div>
 
             <div class="textosec6" id="globosDiv">
-                <img class="globo1s6" data-aos="fade-right" src="src/c2-p5-globo1.svg" alt="">
-                <img class="globo2s6" data-aos="fade-right" src="src/c2-p5-globo2.svg" alt="">
+                <img class="globo1s6" data-aos="fade-right" src="src/globo1Txt2.svg" alt="">
+                <img class="globo2s6" data-aos="fade-right" src="src/globo2txt2.svg" alt="">
             </div>
 
             <div class="imgsec6">
@@ -216,6 +217,9 @@
                 size = 160;
             } else {
                 size =70;
+            }
+            if (anchoVentana <= 375) {
+                size = 10;
             }
 
             // Si el elemento está en el área visible de la ventana, agrega la clase, de lo contrario, quítala
