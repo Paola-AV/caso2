@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:wght@300&display=swap');
+
 body {
     font-family: "Outfit", sans-serif;
     margin: 0;
@@ -120,14 +121,16 @@ body {
     justify-content: center;
     background-color: #3f1652;
 }
-#sec3Icon1{
+
+#sec3Icon1 {
     width: 20%;
     position: absolute;
     z-index: 1;
     top: -10%;
     left: 50%;
 }
-#sec3Icon2{
+
+#sec3Icon2 {
     width: 25%;
     position: absolute;
     z-index: 1;
@@ -373,7 +376,8 @@ body {
     width: 40rem;
     height: 40rem;
 }
-.chicaimgsec6{
+
+.chicaimgsec6 {
     padding-top: 7rem;
     width: 50rem;
     height: 50rem;
@@ -487,7 +491,7 @@ body {
     display: inline;
 }
 
-.texto1s6c-2{
+.texto1s6c-2 {
     color: white;
     text-align: center;
     width: 100%;
@@ -679,6 +683,14 @@ body {
 }
 
 @media (max-width: 1400px) and (orientation: landscape) {
+
+    /*sec 2*/
+    #cintaTxt {
+        padding-top: 0rem;
+    }
+
+    /*sec 5*/
+
     #p2 {
         padding-bottom: 1rem;
     }
@@ -695,6 +707,7 @@ body {
         font-size: 1.5rem;
     }
 
+    /*sec 6*/
     .container6 {
         height: 120vh;
     }
@@ -702,6 +715,11 @@ body {
     .chicaimgs6 {
         width: 30rem;
         height: 30rem;
+    }
+
+    .chicaimgsec6 {
+        width: 40rem;
+        height: 40rem;
     }
 
     .sec9 {
@@ -796,7 +814,8 @@ body {
         width: 31rem;
         height: 31rem;
     }
-    .chicaimgsec6{
+
+    .chicaimgsec6 {
         padding-top: 6rem;
         width: 40rem;
         height: 40rem;
@@ -859,6 +878,10 @@ body {
         background-size: 100vw 120vh;
     }
 
+    .cajaTxt {
+        font-size: 1.5rem;
+    }
+
     /*section 6*/
     .textosec6 {
         width: 40%;
@@ -894,9 +917,11 @@ body {
     .texto1s6 {
         font-size: 1.6rem;
     }
-    .texto1s6c-2{
+
+    .texto1s6c-2 {
         font-size: 1.5rem;
     }
+
     /*section 7*/
     .texto9 {
         max-width: 60%;
@@ -937,11 +962,13 @@ body {
     #text2sec5 {
         padding-right: 7rem;
     }
-    .chicaimgsec6{
+
+    .chicaimgsec6 {
         padding-top: 7rem;
         width: 30rem;
         height: 30rem;
     }
+
     /*Section9*/
     .sec9 {
         position: relative;
@@ -1452,9 +1479,10 @@ body {
     }
 
     /*Section 2*/
-    .section2{
+    .section2 {
         height: 26rem;
     }
+
     #cintaimg {
         display: none;
     }
@@ -1489,24 +1517,26 @@ body {
         width: 22rem;
     }
 
-    .cajaTxt{
+    .cajaTxt {
         width: 80%;
-    font-size: 1.3rem;
-    font-weight: 300;
+        font-size: 1.3rem;
+        font-weight: 300;
     }
 
     .manoCel {
         width: 22rem;
         padding-top: 1rem;
     }
-    #sec3Icon1{
+
+    #sec3Icon1 {
         width: 30%;
         position: absolute;
         z-index: 1;
         top: -10%;
         left: 10%;
     }
-    #sec3Icon2{
+
+    #sec3Icon2 {
         width: 35%;
         position: absolute;
         z-index: 1;
@@ -1515,22 +1545,27 @@ body {
     }
 
     /*section 4*/
-    .luna{
+    .luna {
         justify-self: end;
         padding-right: 3rem;
     }
+
     #nube1 {
         width: 15rem;
     }
+
     #nube3 {
         width: 15rem;
     }
+
     #nube2 {
         width: 19rem;
     }
-    #p1{
+
+    #p1 {
         font-weight: 200;
     }
+
     #p2 {
         padding-bottom: 13rem;
         padding-top: 11rem;
@@ -1549,32 +1584,38 @@ body {
     .letrero {
         padding-left: 4rem;
     }
+
     /*section 6*/
     .sec6-1Icon {
         width: 6rem;
         padding-top: 1rem;
     }
+
     .texto1s6c-1 {
         font-size: 1.3rem;
         padding-top: 0rem;
     }
-    #colortext1s6-1{
+
+    #colortext1s6-1 {
         font-size: 1.3rem;
     }
+
     .chicaimgsec6 {
         padding-top: 6rem;
         width: 24rem;
         height: 24rem;
     }
-    .texto1s6c-2{
+
+    .texto1s6c-2 {
         font-size: 1.3rem;
     }
+
     /*section 7*/
     .sec9 {
         height: 135vh;
     }
 
-    .preguntaH{
+    .preguntaH {
         font-size: 2rem;
         margin: 0rem;
     }
@@ -1596,7 +1637,8 @@ body {
     .btn9 {
         font-size: 1.3rem;
     }
-    .texto9{
+
+    .texto9 {
         font-size: 1.3rem;
     }
 }
@@ -1641,6 +1683,7 @@ body {
     #pastel {
         width: 49%;
     }
+
     /*section 2*/
     #cintaTxt {
         margin-top: 0rem;
@@ -1680,22 +1723,25 @@ body {
         font-size: 1rem;
     }
 
-    
+
     .section5 {
         background-image: url('../src/barXs.svg');
         background-size: cover;
     }
+
     .letrero {
         padding-left: 6rem;
     }
+
     .letreroimg {
         width: 6rem;
     }
 
     /*section 6*/
-    .container6{
+    .container6 {
         height: 120vh;
     }
+
     .chicaimgs6 {
         width: 15rem;
         height: 15rem;
@@ -1733,17 +1779,21 @@ body {
     .texto1s6c-1 {
         font-size: 1.3rem;
     }
+
     .texto1s6c-1 {
         font-size: 1.3rem;
     }
-    #colortext1s6-1{
+
+    #colortext1s6-1 {
         font-size: 1.3rem;
     }
+
     .chicaimgsec6 {
         padding-top: 2rem;
         width: 24rem;
         height: 24rem;
     }
+
     /*section 9*/
     .sec9 {
         height: 140vh;
@@ -1758,6 +1808,7 @@ body {
         padding: 1.3rem 2rem;
         width: 80%;
     }
+
     .texto9 {
         font-size: 1rem;
         padding-top: 1rem;
