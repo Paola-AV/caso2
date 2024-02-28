@@ -587,7 +587,7 @@ body {
 
 .texto9 {
     position: relative;
-    max-width: 32%;
+    max-width: 50%;
     justify-self: center;
     align-self: center;
     color: #111328;
@@ -1317,18 +1317,22 @@ body {
 
     /*section 5*/
     .section5 {
-        background-image: url('../src/barMobile3.svg');
+        background-image: url('../src/barMobile6.svg');
         background-size: cover;
     }
 
     #text1sec5 {
-        margin-top: 13rem;
+        margin-top: 2rem;
         padding-right: 0rem;
+        font-size: 1.3rem;
+        font-weight: 200;
     }
 
     #text2sec5 {
         padding-right: 0rem;
         margin-top: 0;
+        font-size: 1.3rem;
+        font-weight: 200;
     }
 
     /*section 6*/
@@ -1422,7 +1426,7 @@ body {
 
     /*section 1*/
     .section1 {
-        height: 40vh;
+        height: 50vh;
     }
 
     .confeti {
@@ -1443,29 +1447,35 @@ body {
     }
 
     #pastel {
-        width: 46%;
+        width: 64%;
         align-self: end;
     }
 
     /*Section 2*/
+    .section2{
+        height: 26rem;
+    }
     #cintaimg {
         display: none;
     }
 
     #cintaimg2 {
         display: grid;
-        width: 90%;
+        width: 94%;
         justify-self: center;
+        padding-top: 2rem;
     }
 
     #cintaTxt {
         font-size: 1.3rem;
-        width: 60%;
+        width: 80%;
+        padding-top: 3rem;
+        font-weight: 600;
     }
 
     #globoimg {
-        height: 15rem;
-        transform: translate(-4rem, -28rem);
+        height: 17rem;
+        transform: translate(-2rem, -30rem);
         justify-self: end;
         z-index: 0;
     }
@@ -1476,11 +1486,17 @@ body {
     }
 
     .cajatexto {
-        width: 23rem;
+        width: 22rem;
+    }
+
+    .cajaTxt{
+        width: 80%;
+    font-size: 1.3rem;
+    font-weight: 300;
     }
 
     .manoCel {
-        width: 15rem;
+        width: 22rem;
         padding-top: 1rem;
     }
     #sec3Icon1{
@@ -1499,11 +1515,35 @@ body {
     }
 
     /*section 4*/
+    .luna{
+        justify-self: end;
+        padding-right: 3rem;
+    }
+    #nube1 {
+        width: 15rem;
+    }
+    #nube3 {
+        width: 15rem;
+    }
+    #nube2 {
+        width: 19rem;
+    }
+    #p1{
+        font-weight: 200;
+    }
     #p2 {
-        padding-bottom: 4rem;
+        padding-bottom: 13rem;
+        padding-top: 11rem;
     }
 
-    .entorno {}
+    .entorno {
+        background-image: url(../src/intento4Entorno.svg);
+        background-size: cover;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
     /*section 5*/
     .letrero {
@@ -1534,6 +1574,11 @@ body {
         height: 135vh;
     }
 
+    .preguntaH{
+        font-size: 2rem;
+        margin: 0rem;
+    }
+
     #sec7Icon1 {
         top: 2rem;
     }
@@ -1549,7 +1594,10 @@ body {
     }
 
     .btn9 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
+    }
+    .texto9{
+        font-size: 1.3rem;
     }
 }
 
@@ -1591,17 +1639,16 @@ body {
 
     /*section 1*/
     #pastel {
-        width: 35%;
+        width: 49%;
     }
-
     /*section 2*/
     #cintaTxt {
         margin-top: 0rem;
     }
 
     #globoimg {
-        height: 11rem;
-        transform: translate(-5rem, -26rem);
+        height: 14rem;
+        transform: translate(-3rem, -26rem);
     }
 
     /*section 4*/
@@ -1618,31 +1665,31 @@ body {
     }
 
     #p2 {
-        padding-top: 12rem;
+        padding-top: 9rem;
     }
 
     .entorno {}
 
     /*section 5*/
     #text1sec5 {
-        font-size: 1.2rem;
+        font-size: 1rem;
         margin-top: 5rem;
     }
 
     #text2sec5 {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
-    .texto9 {
-        font-size: 0.7rem;
-
-        padding-top: 5rem;
-        align-self: start;
+    
+    .section5 {
+        background-image: url('../src/barXs.svg');
+        background-size: cover;
     }
-
     .letrero {
-        padding-left: 3rem;
-
+        padding-left: 6rem;
+    }
+    .letreroimg {
+        width: 6rem;
     }
 
     /*section 6*/
@@ -1707,8 +1754,13 @@ body {
     }
 
     .btn9 {
-        font-size: 1.5rem;
-        padding: 1.3rem 3rem;
+        font-size: 1.3rem;
+        padding: 1.3rem 2rem;
         width: 80%;
+    }
+    .texto9 {
+        font-size: 1rem;
+        padding-top: 1rem;
+        align-self: start;
     }
 }
