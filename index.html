@@ -101,9 +101,6 @@
 
     </section>
 
-
-    <div class="container6">
-
         <section class="section6" id="section6">
 
             <div class="texto1s6cMobile" data-aos="zoom-in" data-aos-duration="1000" id="textoMobile">
@@ -129,8 +126,8 @@
         </section>
 
         <section class="section6-1" id="section6-1">
-            <div class="sec6-1Img">
-                <img class="chicaimgsec6" src="src/chicaJaula.svg" alt="">
+            <div class="sec6-1Img" >
+                <img class="chicaimgsec6" data-aos="fade-right"  data-aos-duration="500"  data-aos-delay="500" src="src/chicaJaula.svg" alt="">
             </div>
             <div class="sec6-1Txt">
                 <div class="texto1s6c-1" data-aos="zoom-in" data-aos-duration="1000">
@@ -145,7 +142,7 @@
             </div>
         </section>
 
-    </div>
+   
 
     <!--*****seccion de preguntas*****-->
     <!--seccion 7 -->
@@ -243,21 +240,16 @@
                 txtMob.classList.add('fadeOut');
                 txtDesk.classList.add('fadeOut');
                 globos.classList.add('fadeOut');
-                setTimeout(() => {
-                    chica.classList.add('fadeOut');
-                    sec61.style.display = "flex";
-                    sec61.classList.add('fadeIn');
-                }, 1500);
+               
             }
             else {
                 sec6.classList.remove('fadeOut');
-                sec61.style.display = "none";
                 txtMob.classList.remove('fadeOut');
                 txtDesk.classList.remove('fadeOut');
                 globos.classList.remove('fadeOut');
                 chica.style.transform = 'translateX(' + 0 + 'rem)';
                 chica.classList.remove('fadeOut');
-                sec61.classList.remove('fadeIn');
+               
             }
         });
     </script>

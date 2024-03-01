@@ -444,13 +444,9 @@ body {
 .section6-1 {
     width: 100%;
     background-color: #101227;
-    display: none;
+    display: flex;
     flex-direction: row;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+
     z-index: 6;
 }
 
@@ -1498,7 +1494,7 @@ body {
 
     /*Section 2*/
     .section2 {
-        height: 26rem;
+        height: 30rem;
     }
 
     #cintaimg {
