@@ -643,6 +643,9 @@ body {
     align-items: center;
 }
 
+.ulSec9 {
+    margin: 0;
+}
 
 /*Media Queries*/
 
@@ -948,21 +951,26 @@ body {
 }
 
 @media (max-width: 1024px) and (orientation: portrait) {
+
     /*section 2*/
     .section2 {
         height: 34rem;
     }
-    #cintaTxt{
+
+    #cintaTxt {
         padding-top: 0rem;
     }
+
     #globoimg {
         height: 25rem;
         transform: translateY(-20rem);
     }
+
     /*section 4*/
-    .entorno{
+    .entorno {
         background-size: 100vw 130vh;
     }
+
     /*Section 5*/
     .letrero {
         padding-left: 0rem;
@@ -991,10 +999,12 @@ body {
     #text2sec5 {
         padding-right: 7rem;
     }
+
     /*section 6*/
     .section6 {
         height: 71vh;
     }
+
     .chicaimgsec6 {
         padding-top: 7rem;
         width: 30rem;
@@ -1121,6 +1131,7 @@ body {
         z-index: 2;
         justify-self: center;
     }
+
     .texto9 {
         font-size: 1.3rem;
     }
@@ -1144,15 +1155,17 @@ body {
     #cintaTxt {
         padding-top: 1rem;
     }
-    
+
 
     /*section 3*/
     .cajatexto {
         width: 22rem;
     }
+
     .cajaTxt {
         font-size: 1.2rem;
     }
+
     .manoCel {
         width: 16rem;
     }
@@ -1210,7 +1223,7 @@ body {
         justify-content: center;
         align-items: center;
         padding: 0rem;
-      
+
     }
 
     .chicaimgs6 {
