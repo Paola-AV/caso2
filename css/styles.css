@@ -896,8 +896,14 @@ body {
         padding-top: 0rem;
     }
 }
-
+@media (max-width:1290px) and (orientation:landscape) {
+    .divSec6Alarma {
+        transform: translateY(2rem);
+        padding-top: 0rem;
+    }
+}
 @media (max-width:1250px) and (orientation:landscape) {
+    
     .texto1s6 {
         color: white;
         font-size: 1.5rem;
@@ -1043,8 +1049,11 @@ body {
 
     .entorno {
         background-size: 100vw 120vh;
+        height: 87vh;
     }
-
+    .section4 {
+        height: 107vh;
+    }
     .cajaTxt {
         font-size: 1.5rem;
     }
@@ -1184,6 +1193,9 @@ body {
     .alarma6 {
         width: 55%;
         transform: translateY(0rem);
+    }
+    .divSec6Alarma {
+        transform: translateY(-24rem);
     }
 
     /*Section9*/
@@ -1328,7 +1340,7 @@ body {
 
     .divSec6Alarma {
         justify-content: end;
-        transform: rotateY(-21rem);
+        transform: translateY(-21rem);
     }
 
     /*sec 6-1*/
@@ -1512,6 +1524,7 @@ body {
 
     .divSec6Alarma {
         justify-content: end;
+        transform: translateY(0rem);
     }
 
     /*sec 6-1*/
