@@ -373,6 +373,51 @@ body {
     justify-self: end;
 }
 
+.divSec6Alarma {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+}
+
+.alarma6 {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    width: 15%;
+    align-items: center;
+    justify-content: center;
+    animation: parpadear 1s infinite alternate;
+}
+
+@keyframes parpadear {
+    from {
+        opacity: 0;
+        /* Comienza con opacidad 0 */
+    }
+
+    to {
+        opacity: 1;
+        /* Termina con opacidad 1 */
+    }
+}
+
+.redFlag6 {
+    width: 3rem;
+    height: 3rem;
+    padding-right: 1rem;
+}
+
+.alarma6txt {
+    font-weight: 800;
+    color: red;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
 .chicaimgs6 {
     width: 40rem;
     height: 40rem;
@@ -515,6 +560,51 @@ body {
     /* Valor inicial */
 }
 
+.divSec6-1Alarma {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+}
+
+.alarma6-1 {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    width: 15%;
+    align-items: center;
+    justify-content: center;
+    animation: parpadear 1s infinite alternate;
+}
+
+@keyframes parpadear {
+    from {
+        opacity: 0;
+        /* Comienza con opacidad 0 */
+    }
+
+    to {
+        opacity: 1;
+        /* Termina con opacidad 1 */
+    }
+}
+
+.redFlag6-1 {
+    width: 3rem;
+    height: 3rem;
+    padding-right: 1rem;
+}
+
+.alarma6txt-1 {
+    font-weight: 800;
+    color: red;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
 /*section 7*/
 .sec9 {
     background-color: #111328;
@@ -643,9 +733,6 @@ body {
     align-items: center;
 }
 
-.ulSec9 {
-    margin: 0;
-}
 
 /*Media Queries*/
 
@@ -680,6 +767,27 @@ body {
         height: 7rem;
     }
 
+    .alarma6 {
+        width: 25%;
+    }
+
+    .redFlag6 {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .alarma6txt {
+        font-size: 1.5rem;
+    }
+
+    /*sec 6-1*/
+    .alarma6-1 {
+        width: 35%;
+    }
+
+
+
+
 }
 
 @media (max-width: 1400px) and (orientation: landscape) {
@@ -687,6 +795,18 @@ body {
     /*sec 2*/
     #cintaTxt {
         padding-top: 0rem;
+    }
+
+    .section4 {
+        height: 145vh;
+    }
+
+    .entorno {
+        height: 125vh
+    }
+
+    .texto2 {
+        height: 85%;
     }
 
     /*sec 5*/
@@ -728,6 +848,26 @@ body {
 }
 
 @media (max-width: 1300px) {
+
+    /*sec 4*/
+    .section4 {
+        height: 126vh;
+    }
+
+    .entorno {
+        height: 113vh
+    }
+
+    .texto2 {
+        height: 85%;
+    }
+
+    /*sec 5*/
+    .letrero {
+        padding-top: 1rem;
+    }
+
+    /*sec6*/
     .globo1s6 {
         width: 25rem;
         height: 13rem;
@@ -742,6 +882,25 @@ body {
     .chicaimgs6 {
         width: 35rem;
         height: 35rem;
+    }
+
+    .texto1 {
+        padding-bottom: 10rem;
+    }
+}
+
+@media (max-width:1250px) and (orientation:landscape) {
+    .texto1s6 {
+        color: white;
+        font-size: 1.5rem;
+    }
+
+    #colortext1 {
+        font-size: 1.5rem;
+    }
+
+    .sec9 {
+        height: 137vh;
     }
 }
 
@@ -1011,6 +1170,10 @@ body {
         height: 30rem;
     }
 
+    .alarma6 {
+        width: 55%;
+    }
+
     /*Section9*/
     .sec9 {
         position: relative;
@@ -1132,6 +1295,39 @@ body {
         justify-self: center;
     }
 
+    .alarma6 {
+        width: 45%;
+    }
+
+    .redFlag6 {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .alarma6txt {
+        font-size: 1.5rem;
+    }
+
+    .divSec6Alarma {
+        justify-content: end;
+        transform: rotateY(-21rem);
+    }
+
+    /*sec 6-1*/
+    .alarma6-1 {
+        width: 55%;
+    }
+
+    .redFlag6-1 {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .alarma6txt-1 {
+        font-size: 1.5rem;
+    }
+
+
     .texto9 {
         font-size: 1.3rem;
     }
@@ -1216,7 +1412,7 @@ body {
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-        height: 78vh;
+        height: 91vh;
     }
 
     .imgsec6 {
@@ -1280,6 +1476,38 @@ body {
         width: 100%;
         padding-top: 2rem;
     }
+
+    .alarma6 {
+        width: 45%;
+    }
+
+    .redFlag6 {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .alarma6txt {
+        font-size: 1rem;
+    }
+
+    .divSec6Alarma {
+        justify-content: end;
+    }
+
+    /*sec 6-1*/
+    .alarma6-1 {
+        width: 75%;
+    }
+
+    .redFlag6-1 {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .alarma6txt-1 {
+        font-size: 1rem;
+    }
+
 
     /*Section9*/
     .sec9 {
@@ -1665,6 +1893,39 @@ body {
         font-size: 1.3rem;
     }
 
+    .alarma6 {
+        width: 45%;
+    }
+
+    .redFlag6 {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .alarma6txt {
+        font-size: 1rem;
+    }
+
+    .divSec6Alarma {
+        justify-content: end;
+    }
+
+    /*sec 6-1*/
+    .alarma6-1 {
+        width: 75%;
+    }
+
+    .redFlag6-1 {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .alarma6txt-1 {
+        font-size: 1rem;
+    }
+
+
+
     /*section 7*/
     .sec9 {
         height: 102vh;
@@ -1730,6 +1991,15 @@ body {
     .sec9 {
         height: 110vh;
     }
+
+    .section4-1 {
+        height: 110vh;
+        background-color: rgba(4, 7, 29);
+    }
+
+    .texto2 {
+        padding-top: 10%;
+    }
 }
 
 @media (max-width: 375px) and (orientation: portrait) {
@@ -1766,7 +2036,13 @@ body {
         padding-top: 9rem;
     }
 
-    .entorno {}
+    .section4-1 {
+        height: 120vh;
+    }
+
+    .texto2 {
+        padding-top: 15%;
+    }
 
     /*section 5*/
     #text1sec5 {
