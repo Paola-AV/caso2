@@ -69,6 +69,13 @@
                 <div class="nube2">
                     <img id="nube2" data-aos="zoom-in" data-aos-duration="800" src="src/c2-p3-nube2.svg" alt="">
                 </div>
+                <div class="divSec4Alarma">
+                    <button class="alarma4" id="alarma">
+                        <img src="./src/red_flag.svg" id="redFlag4">
+                        <p class="alarma4txt">Relación impropia</p>
+                    </button>
+                    
+                </div>
             </div>
             <div class="entorno">
                 <div class="texto1" data-aos="zoom-in" data-aos-duration="1000">
@@ -76,12 +83,7 @@
                         se
                         fueron de picnic a un mirador. 
                     </p>
-                    <div class="divSec4Alarma">
-                        <div class="alarma4">
-                            <img src="./src/red_flag.svg" class="redFlag4">
-                            <p class="alarma4txt">Secretividad</p>
-                        </div>
-                    </div>
+                    
                 </div>
                 <div class="texto2" data-aos="zoom-in" data-aos-duration="1500">
                     <p id="p2">Fue así como Manu le pidió que fuera su novia.
@@ -89,7 +91,30 @@
                 </div>
             </div>
 
+            <div class="carrusel" id="modal" style="display: none;">
+                <div class="slider-wrapper">
+                    <button class="slide-arrow" id="slide-arrow-prev">
+                        <img style="rotate: 180deg;" class="arrow" src="./src/flecha.svg">
+                    </button>
 
+                    <ul class="slides-container" id="slides-container">
+                        <li class="slide"><img class="imgCarrousel" src="./src/RI1.png"></li>
+                        <li class="slide"><img class="imgCarrousel" src="./src/RI2.png"></li>
+                        <li class="slide"><img class="imgCarrousel" src="./src/RI3.png"></li>
+                        <li class="slide"><img class="imgCarrousel" src="./src/RI4.png"></li>
+                        <li class="slide"><img class="imgCarrousel" src="./src/RI5.png"></li>
+                        <li class="slide"><img class="imgCarrousel" src="./src/RI6.png"></li>
+                        <li class="slide"><img class="imgCarrousel" src="./src/RI7.png"></li>
+                    </ul>
+
+                    <button class="slide-arrow" id="slide-arrow-next">
+                        <img class="arrow" src="./src/flecha.svg">
+                    </button>
+
+                </div>
+                <div>
+                    <button class="carruselExBtn" id="modalClose">Regresar a la historia</button>
+                </div>
         </div>
 
     </section>
@@ -120,12 +145,6 @@
         <div class="textosec6" id="globosDiv">
             <img class="globo1s6" data-aos="fade-right" src="src/globo1Txt2.svg" alt="">
             <img class="globo2s6" data-aos="fade-right" src="src/globo2txt2.svg" alt="">
-            <div class="divSec6Alarma">
-                <div class="alarma6">
-                    <img src="./src/red_flag.svg" class="redFlag6">
-                    <p class="alarma6txt">Celos</p>
-                </div>
-            </div>
         </div>
 
         <div class="imgsec6">
@@ -155,10 +174,10 @@
             </div>
             <img class="sec6-1Icon" data-aos="zoom-in" data-aos-duration="1000" src="./src/tristeIcon.svg">
             <div class="divSec6-1Alarma">
-                <div class="alarma6-1">
+                <a class="alarma6-1" href="https://mequierenomequiere.org/el-amor-no-lastima-circulo-de-la-violencia/" target="_blank">
                     <img src="./src/red_flag.svg" class="redFlag6-1">
                     <p class="alarma6txt-1">Aislamiento</p>
-                </div>
+                </a>
             </div>
         </div>
     </section>
@@ -167,7 +186,7 @@
 
     <!--*****seccion de preguntas*****-->
     <!--seccion 7 -->
-    <section class="sec9">
+    <section class="sec9" id="sec9">
         <h1 class="preguntaH">¿Qué le recomendarías a Fer?</h1>
         <img id="sec7Icon1" src="./src/s7-corazon.svg">
         <img id="sec7Icon2" src="./src/s7-corazones.svg">
@@ -246,6 +265,7 @@
     </section>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./javascript/script.js"></script>
     <script>
         AOS.init();
     </script>
@@ -305,13 +325,33 @@
     </script>
     <script>
         function mostrarRespuesta(color) {
+            var sec9 = document.getElementById("sec9");
+            var anchoVentana = window.innerWidth;
             document.getElementById("volverBtn").style.display = "block";
             // Mostrar la respuesta correspondiente
             if (color === "azul") {
                 document.getElementById("azul").style.display = "grid";
+                if (anchoVentana <= 820) {
+                    sec9.style.height = "130vh";
+                }
+                if (anchoVentana <= 435) {
+                    sec9.style.height = "120vh";
+                }
+                if (anchoVentana <= 375) {
+                    sec9.style.height = "145vh";
+                }
             }
             if (color === "rojo") {
                 document.getElementById("rojo").style.display = "grid";
+                if (anchoVentana <= 820) {
+                    sec9.style.height = "150vh";
+                }
+                if (anchoVentana <= 435) {
+                    sec9.style.height = "140vh";
+                }
+                if (anchoVentana <= 375) {
+                    sec9.style.height = "145vh";
+                }
             }
 
             // Ocultar la sección de la pregunta
@@ -323,6 +363,8 @@
 
     <script>
         function volverPregunta() {
+            var anchoVentana = window.innerWidth;
+            var sec9 = document.getElementById("sec9");
             // Mostrar la sección de la pregunta
             document.getElementById("pregunta").style.display = "flex";
 
@@ -332,6 +374,13 @@
 
             // Ocultar el botón de volver
             document.getElementById("volverBtn").style.display = "none";
+            if (anchoVentana <= 1300) {
+                sec9.style.height = "140vh";
+            }
+            if (anchoVentana <= 820) {
+                sec9.style.height = "110vh";
+            }
+        
         }
 
     </script>
