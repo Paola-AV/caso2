@@ -1,16 +1,38 @@
+document.addEventListener("DOMContentLoaded", function() {
 const slidesContainer = document.getElementById("slides-container");
 const slide = document.querySelector(".slide");
 const prevButton = document.getElementById("slide-arrow-prev");
 const nextButton = document.getElementById("slide-arrow-next");
+let index=0;
+if(index===0){
+    prevButton.style.opacity=0;
+}
 nextButton.addEventListener("click", (event) => {
+   
     const slideWidth = slide.clientWidth;
     slidesContainer.scrollLeft += slideWidth;
+    index++;
+    if(index>0){
+        prevButton.style.opacity=1;
+    }
+    if(index>=6){
+        nextButton.style.opacity=0;
+    }
+    console.log(index)
 });
 prevButton.addEventListener("click", () => {
     const slideWidth = slide.clientWidth;
     slidesContainer.scrollLeft -= slideWidth;
+    index--;
+    console.log(index)
+    if(index<6){
+        nextButton.style.opacity=1;
+    }
+    if(index===1){
+        prevButton.style.opacity=0;
+    }
 });
-
+});
 // Get the modal
 var modal = document.getElementById('modal');
 
