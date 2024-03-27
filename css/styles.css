@@ -769,7 +769,7 @@ body {
 .carruselExBtn{
     padding: 1rem;
     z-index: 1000;
-    background-color: #321e40;
+    background-color: #c057f4;
     border-radius: 10px;
     color: white;
     font-weight: 600;
@@ -821,6 +821,7 @@ body {
 .arrow{
     width: 6rem; 
     height: 6rem;
+    fill: #19012b;
 }
 /* WebKit */
 .slides-container::-webkit-scrollbar { 
@@ -831,7 +832,7 @@ body {
     display: flex;
     top: 0;
     bottom: 0;
-    margin: auto;
+    margin: 0;
     height: 4rem;
     border: none;
     width: 2rem;
@@ -840,6 +841,7 @@ body {
     cursor: pointer;
     opacity: 0.5;
     background-color: transparent;
+    
   }
   .slide-arrow:hover,
   .slide-arrow:focus {
@@ -848,10 +850,12 @@ body {
   #slide-arrow-prev {
     left: 0;
     background-color: transparent;
+    margin-right: 2.5rem;
   }
   #slide-arrow-next {
     right: 0;
     background-color: transparent;
+    transform: translateX(-1rem);
   }
 
 /*Media Queries*/
@@ -2059,6 +2063,9 @@ body {
         height: 2rem;
         width: 2rem;
     }
+    #slide-arrow-prev {
+        margin-right: 0rem;
+      }
     /*section 5*/
     .letrero {
         padding-left: 4rem;
